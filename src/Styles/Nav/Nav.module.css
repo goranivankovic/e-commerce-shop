@@ -1,0 +1,773 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.main{
+    
+position: fixed;
+top: 0%;
+left: 0%;
+height: 6.5vmin;
+width: 100%;
+background-color: rgb(255, 255, 255);
+z-index: 10;
+color: black;
+display: flex;
+align-items: center;
+justify-content: space-between;
+cursor: pointer;
+font-family: 'Righteous', cursive;
+
+}
+
+.logo{
+    height: 6.5vmin;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-decoration: none;
+
+    font-size: 2.5vmin;
+    /* border: 1px solid red; */
+}
+
+.logo div a{
+    color: black;
+   text-decoration: none;
+}
+
+
+.navItems{
+width:55%;
+height:6.5vmin;
+display: flex;
+align-items: center;
+justify-content: space-around;
+font-size: 2.25vmin;
+list-style: none;
+
+/* border: 1px solid red; */
+
+}
+
+.navItems li a{
+    color: black;
+    text-decoration: none;
+}
+
+
+.navItems :hover{
+    transition: 600ms;
+    color: red;
+}
+
+
+
+.divOnMouseOverMain{
+
+    position: fixed;
+top: 6.4vmin;
+left: 0%;
+height: 55vmin;
+width: 100%;
+background-color: white;
+z-index: 8;
+color: black;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+cursor: pointer;
+font-family: 'Righteous', cursive;
+
+
+}
+
+.divOnMouseOverFirst{
+    height: 50vmin;
+    width: 65%;
+color: black;
+display: flex;
+
+justify-content: space-between;
+cursor: pointer;
+font-family: 'Righteous', cursive;
+
+
+
+
+}
+
+.divOnMouseOverFirst div{
+    height: 35vmin;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    justify-content: space-around;
+   
+    /* border: 1px solid green; */
+}
+.divOnMouseOverFirst div li a{
+    color: black;
+    text-decoration: none;
+    font-size: 2vmin;
+}
+
+.divOnMouseOverFirst div li:nth-child(1){
+    display: flex;
+    justify-content: space-between;
+    justify-self: flex-end;
+    font-weight: bolder;
+}
+
+.divOnMouseOverFirst div:nth-child(2){
+    min-height: 45vmin;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    justify-content: space-between;
+    /* border: 1px solid green; */
+}
+
+
+.divOnMouseOverFirst div:nth-child(3){
+    min-height: 30vmin;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    justify-content: space-between;
+    /* border: 1px solid green; */
+}
+.divOnMouseOverFirst div:nth-child(4){
+   min-height: 30vmin;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    justify-content: space-between;
+    /* border: 1px solid green; */
+}
+
+.divOnMouseOverFirst input[type=text]{
+    width: 25%;
+
+}
+
+
+.divOnMouseOverFirst div li:hover{
+    text-decoration: underline;
+    transition: 600ms;
+}
+
+.divOnMouseOverFirstInput{
+    min-height: 35vmin;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+  
+/*    
+    border: 1px solid green; */
+
+}
+.divOnMouseOverFirstInput div li{
+    padding: 5px;
+}
+
+
+
+.divOnMouseOverFirstInput input[type=text]{
+    width: 100%;
+    height: 4.5vmin;
+}
+
+.main768{
+    display: none;
+}
+
+
+
+.divOnMouseOverMain768{
+    display: none;
+}
+
+.divOnMouseOverFirst768{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Media querys */
+
+
+
+@media only screen and (max-width:1250px) {
+
+
+    .navItems{
+        width:65%;
+        height:6.5vmin;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        font-size: 2vmin;
+        list-style: none;
+        
+       
+        
+        }
+
+        .divOnMouseOverFirst{
+            height: 50vmin;
+            width: 75%;
+        color: black;
+        display: flex;
+        font-size: 1vmin;
+        
+        justify-content: space-between;
+        cursor: pointer;
+        font-family: 'Righteous', cursive;
+        
+        
+     
+        
+        }
+
+
+
+                .divOnMouseOverFirst div li a {
+                    color: black;
+                    text-decoration: none;
+                    font-size: 1.8vmin;
+                }
+
+
+
+
+ 
+
+}
+
+
+
+
+
+@media only screen and (max-width:992px) {
+
+    .logo{
+        height: 6.5vmin;
+        width: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        text-decoration: none;
+    
+        font-size: 2.2vmin;
+      
+    }
+    
+
+
+    .navItems{
+        width:70%;
+        height:6.5vmin;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        font-size: 1.9vmin;
+        list-style: none;
+        
+       
+        
+        }
+
+        .divOnMouseOverFirst{
+            height: 50vmin;
+            width: 85%;
+        color: black;
+        display: flex;
+     
+        
+        justify-content: space-between;
+        cursor: pointer;
+        font-family: 'Righteous', cursive;
+        
+        
+     
+        
+        }
+
+
+                .divOnMouseOverFirst div li a {
+                    color: black;
+                    text-decoration: none;
+                    font-size: 1.7vmin;
+                }
+
+ 
+
+}
+
+
+
+
+
+
+
+@media only screen and (max-width:768px) {
+
+
+    .main {
+
+        display: none;
+
+    }
+
+    .navItems {
+        display: none;
+    }
+
+    .divOnMouseOverMain {
+        display: none;
+    }
+
+
+
+
+
+    .main768 {
+
+        position: fixed;
+        top: 0%;
+        left: 0%;
+        min-height: 6.5vh;
+        width: 100%;
+        background-color: white;
+        z-index: 12;
+        color: black;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        cursor: pointer;
+        font-family: 'Righteous', cursive;
+        /* border: 1px solid red; */
+
+    }
+
+
+    .navItems768 {
+        width: 35%;
+        height: 6.5vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        font-size: 2.2vmin;
+        list-style: none;
+        padding-right: 3px;
+
+        /* border: 1px solid red; */
+    }
+
+
+         .navItems768 svg {
+             font-size: 3.3vmin;
+         }
+
+
+    .logo768 {
+
+        height: 6.5vh;
+        width: 35%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        text-decoration: none;
+
+        font-size: 2.5vmin;
+        /* border: 1px solid red; */
+
+    }
+
+
+
+
+    .logo768 div a {
+        color: black;
+        text-decoration: none;
+    }
+
+
+
+    .divOnMouseOverMain768 {
+        z-index: 11;
+
+        position: fixed;
+        top: 6.4vh;
+        left: 0%;
+        height: 94vh;
+        width: 100%;
+        background-color: white;
+        z-index: 11;
+        color: black;
+        display: flex;
+
+        justify-content: space-around;
+
+        cursor: pointer;
+        font-family: 'Righteous', cursive;
+
+        overflow: scroll;
+
+    }
+
+    .divOnMouseOverFirst768 {
+
+        min-height: 105vh;
+
+        width: 85%;
+        color: black;
+        display: flex;
+
+        flex-direction: column;
+        list-style: none;
+        cursor: pointer;
+        font-family: 'Righteous', cursive;
+
+        /* border: 1px solid red; */
+
+
+    }
+
+    .divOnMouseOverFirst768 li {
+        min-height: 5.5vmax;
+        color: black;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+
+        /* border: 1px solid red;*/
+    }
+
+
+
+
+    .divOnMouseOverFirst768 div li a {
+        text-decoration: none;
+        color: black;
+        border: 0px;
+        width: 60%;
+        margin-left: 20px;
+        border-bottom-color: transparent;
+        font-weight: 100;
+
+        /* border: 1px solid red; */
+    }
+
+
+
+    .cards {
+        font-size: 2.7vmin;
+    }
+
+    .serchBar768 input[type=text] {
+        height: 4vh;
+        width: 80%;
+    }
+
+
+}
+
+
+
+
+@media only screen and (max-width:600px) {
+
+
+    .navItems768 {
+        width: 50%;
+        height: 6.5vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        font-size: 2.55vmin;
+        list-style: none;
+
+
+
+    }
+
+
+         .navItems768 svg {
+             font-size: 3.8vmin;
+         }
+
+
+
+
+
+        .logo768 {
+    
+            height: 6.5vh;
+            width: 35%;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            text-decoration: none;
+    
+            font-size: 3.1vmin;
+            /* border: 1px solid red; */
+    
+        }
+    
+    
+    
+    
+        .logo768 div a {
+            color: black;
+            text-decoration: none;
+        }
+    
+    
+    
+        .divOnMouseOverMain768 {
+            z-index: 11;
+    
+            position: fixed;
+            top: 6.4vh;
+            left: 0%;
+            height: 94vh;
+            width: 100%;
+            background-color: white;
+            z-index: 11;
+            color: black;
+            display: flex;
+    
+            justify-content: space-around;
+    
+            cursor: pointer;
+            font-family: 'Righteous', cursive;
+    
+            overflow: scroll;
+    
+        }
+    
+        .divOnMouseOverFirst768 {
+    
+            min-height: 105vh;
+    
+            width: 85%;
+            color: black;
+            display: flex;
+    
+            flex-direction: column;
+            list-style: none;
+            cursor: pointer;
+            font-family: 'Righteous', cursive;
+            font-size: 2.5vmin;
+    
+            /* border: 1px solid red; */
+    
+    
+        }
+    
+        .divOnMouseOverFirst768 li {
+            min-height: 5.5vmax;
+            color: black;
+    
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+    
+    
+            /* border: 1px solid red;*/
+        }
+    
+    
+    
+    
+        .divOnMouseOverFirst768 div li a {
+            text-decoration: none;
+            color: black;
+            border: 0px;
+            width: 60%;
+            margin-left: 20px;
+            border-bottom-color: transparent;
+            font-weight: 100;
+            font-size: 2.3vmin;
+    
+            /* border: 1px solid red; */
+        }
+    
+    
+    
+        .cards {
+            font-size: 2.7vmin;
+        }
+    
+        .serchBar768 input[type=text] {
+            height: 4vh;
+            width: 80%;
+        }
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+@media only screen and (max-width:500px) {
+
+
+    .navItems768 {
+        width: 50%;
+        height: 6.5vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        font-size: 2.6vmin;
+        list-style: none;
+
+
+
+    }
+
+    .navItems768 svg{
+        font-size: 4.2vmin;
+    }
+
+
+
+
+
+    .logo768 {
+
+        height: 6.5vh;
+        width: 35%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        text-decoration: none;
+
+        font-size: 3.8vmin;
+        /* border: 1px solid red; */
+
+    }
+
+
+
+
+    .logo768 div a {
+        color: black;
+        text-decoration: none;
+    }
+
+
+
+    .divOnMouseOverMain768 {
+        z-index: 11;
+
+        position: fixed;
+        top: 6.4vh;
+        left: 0%;
+        height: 94vh;
+        width: 100%;
+        background-color: white;
+        z-index: 11;
+        color: black;
+        display: flex;
+
+        justify-content: space-around;
+
+        cursor: pointer;
+        font-family: 'Righteous', cursive;
+
+        overflow: scroll;
+
+    }
+
+    .divOnMouseOverFirst768 {
+
+        min-height: 105vh;
+
+        width: 85%;
+        color: black;
+        display: flex;
+
+        flex-direction: column;
+        list-style: none;
+        cursor: pointer;
+        font-family: 'Righteous', cursive;
+        font-size: 3.35vmin;
+
+        /* border: 1px solid red; */
+
+
+    }
+
+    .divOnMouseOverFirst768 li {
+        min-height: 4.5vmax;
+        color: black;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+
+        /* border: 1px solid red;*/
+    }
+
+
+
+
+    .divOnMouseOverFirst768 div li a {
+        text-decoration: none;
+        color: black;
+        border: 0px;
+        width: 60%;
+        margin-left: 20px;
+        border-bottom-color: transparent;
+        font-weight: 100;
+        font-size: 3.1vmin;
+
+        /* border: 1px solid red; */
+    }
+
+
+
+    .cards {
+        font-size: 4vmin;
+    }
+
+    .serchBar768 input[type=text] {
+        height: 4vh;
+        width: 80%;
+    }
+
+
+
+
+
+
+}

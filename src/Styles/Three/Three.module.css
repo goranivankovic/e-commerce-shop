@@ -1,0 +1,520 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+.main{
+ 
+
+   min-height: 100vmin;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+
+    font-family: 'Righteous', cursive;
+
+
+
+}
+.firstDiv{
+    height: 100vmin;
+    width: 49%;
+    background-color: rgba(135, 40, 255, 1);
+    display: flex;
+    flex-direction: column;
+  
+    
+}
+.emptyDiv{
+    height: 8vh;
+    width: 100%;
+}
+
+
+.firstDivText{
+    
+    height: 7vmin;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 3vmin;
+    margin-left: 100px;
+    border-bottom:2px solid #FF0000;
+    
+   
+
+
+}
+
+
+
+.firstDivImg{
+    display: flex;
+ 
+    align-self: flex-end;
+    height: 85vmin;
+    width: 100%;
+    background-image: url('../../Img/blackMan.png');
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: contain;
+   
+  
+   
+
+
+}
+
+.secondDiv{
+    height: 100vmin;
+    width: 49%;
+    background-color: #FF0000;
+    display: flex;
+    flex-direction: column;
+    
+   
+   
+}
+
+.seconDivText{
+    
+    height: 7vmin;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 3vmin;
+    margin-left: 100px;
+    border-bottom:2px solid rgba(135, 40, 255, 1);
+    
+   
+
+
+}
+
+
+
+.secondDivImg{
+    height: 85vmin;
+    width: 100%;
+    padding: 10px;
+    background-image: url('../../Img/tshirt.png');
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: contain;
+  
+
+   
+  
+}
+
+
+@media only screen and (min-width: 1601px) and (max-width: 2562px) {
+
+
+    
+.firstDivText{
+    
+    height: 7vmin;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 3vmin;
+    margin-left: 100px;
+    border-bottom:2px solid #FF0000;
+    
+   
+
+
+}
+
+.seconDivText{
+    
+    height: 7vmin;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 3vmin;
+    margin-left: 100px;
+    border-bottom:2px solid rgba(135, 40, 255, 1);
+    
+   
+
+
+}
+
+
+
+
+
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 992px) {
+
+
+    .firstDivText{
+    
+        height: 7vmin;
+        width: 40%;
+        display: flex;
+        align-items: center;
+        color: white;
+        font-size: 2.7vmin;
+        margin-left: 100px;
+        border-bottom:2px solid #FF0000;
+        
+       
+    
+    
+    }
+    
+
+
+    .seconDivText{
+        height: 7vmin;
+        width: 40%;
+        display: flex;
+        align-items: center;
+        color: white;
+       font-size: 2.7vmin;
+    
+        margin-left: 100px;
+    
+        border-bottom:2px solid #8728ff;
+    
+    }
+    
+  
+  }
+
+
+
+  
+@media only screen and (max-width: 768px) {
+
+    .main{
+ 
+
+        min-height: 101vmin;
+         width: 100%;
+         display: flex;
+         align-items: center;
+         flex-direction: column;
+         justify-content: space-between;
+         cursor: pointer;
+     
+         font-family: 'Righteous', cursive;
+     
+     
+     
+     }
+
+     .firstDiv{
+        height: 50vmin;
+        width: 85%;
+        background-color: rgba(135, 40, 255, 1);
+        display: flex;
+        flex-direction: column;
+
+
+      
+        
+    }
+
+
+    
+.firstDivImg{
+    display: flex;
+ 
+    align-self: flex-end;
+    height: 50vmin;
+    width: 100%;
+    background-image: url('../../Img/blackMan.png');
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: contain;
+   
+
+}
+
+.secondDiv{
+    height: 50vmin;
+    width: 85%;
+    background-color: #FF0000;
+    display: flex;
+    flex-direction: column;
+    
+   
+   
+}
+
+
+
+.secondDivImg{
+    height: 50vmin;
+    width: 100%;
+    padding: 10px;
+    background-image: url('../../Img/tshirt.png');
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: contain;
+  
+
+   
+  
+}
+
+
+
+
+    
+    .firstDivText{
+    
+        height: 7vmin;
+        width: 40%;
+        display: flex;
+        align-items: center;
+        color: white;
+        font-size: 2.85vmin;
+        margin-left: 100px;
+        border-bottom:2px solid #FF0000;
+        
+       
+    
+    
+    }
+    
+
+
+    .seconDivText{
+        height: 7vmin;
+        width: 40%;
+        display: flex;
+        align-items: center;
+        color: white;
+        font-size: 2.85vmin;
+    
+        margin-left: 100px;
+    
+        border-bottom:2px solid #8728ff;
+    
+    }
+
+
+  
+  }
+
+
+
+
+  @media only screen and (max-width: 600px) {
+
+
+
+    .main {
+    
+    
+            min-height: 120vmin;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: space-between;
+            cursor: pointer;
+    
+            font-family: 'Righteous', cursive;
+    
+    
+    
+        }
+
+
+    
+    .firstDiv{
+        height: 60vmin;
+        width: 100%;
+        background-color: rgba(135, 40, 255, 1);
+        display: flex;
+        flex-direction: column;
+      
+        
+    }
+
+
+    
+
+
+.secondDiv{
+    height: 60vmin;
+    width: 100%;
+    background-color: #FF0000;
+    display: flex;
+    flex-direction: column;
+    
+   
+   
+}
+
+
+
+.firstDivText{
+    
+    height: 7vmin;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 3vmin;
+    margin-left: 70px;
+    border-bottom:2px solid #FF0000;
+    
+   
+
+
+}
+
+
+
+.seconDivText{
+    height: 7vmin;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 3vmin;
+
+    margin-left: 70px;
+
+    border-bottom:2px solid #8728ff;
+
+}
+
+
+
+
+
+
+
+
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        @media only screen and (max-width: 500px) {
+    
+    
+    
+            .main {
+    
+    
+                min-height: 160vmin;
+                width: 100%;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                justify-content: space-between;
+                cursor: pointer;
+    
+                font-family: 'Righteous', cursive;
+    
+    
+    
+            }
+    
+    
+    
+            .firstDiv {
+                height: 80vmin;
+                width: 100%;
+                background-color: rgba(135, 40, 255, 1);
+                display: flex;
+                flex-direction: column;
+    
+    
+            }
+    
+    
+    
+    
+    
+            .secondDiv {
+                height: 80vmin;
+                width: 100%;
+                background-color: #FF0000;
+                display: flex;
+                flex-direction: column;
+    
+    
+    
+            }
+    
+    
+    
+            .firstDivText {
+    
+                height: 7vmin;
+                width: 50%;
+                display: flex;
+                align-items: center;
+                color: white;
+                font-size: 3.4vmin;
+                margin-left: 70px;
+                border-bottom: 2px solid #FF0000;
+    
+    
+    
+    
+            }
+    
+    
+    
+            .seconDivText {
+                height: 7vmin;
+                width: 50%;
+                display: flex;
+                align-items: center;
+                color: white;
+                font-size: 3.4vmin;
+    
+                margin-left: 70px;
+    
+                border-bottom: 2px solid #8728ff;
+    
+            }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        }

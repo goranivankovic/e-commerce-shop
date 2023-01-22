@@ -1,0 +1,429 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+
+
+
+
+.main {
+    min-height: 65vmin;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    color: black;
+    cursor: pointer;
+
+}
+
+.empty {
+    height: 7.5vmin;
+    width: 100%;
+}
+
+.firstDiv {
+    min-height: 40vmin;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+    /* border: 1px solid red; */
+}
+
+.firstDiv_first_row {
+    min-height: 37vmin;
+    width: 25%;
+    padding-right: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 2vmin;
+
+    /* border: 1px solid blue; */
+}
+
+.firstDiv_first_row_icons_hw {
+    min-height: 37vmin;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+
+    /* border: 1px solid blue; */
+
+
+}
+
+.firstDiv_first_row_icons {
+    min-height: 8vmin;
+    width: 60%;
+    color: black;
+    /* border: 1px solid teal;  */
+
+}
+
+
+
+.firstDiv_first_row_headline {
+    padding: 7px;
+    width: 70%;
+    color: red;
+    font-weight: 500;
+
+    font-size: 2.3vmin;
+    border-bottom: 2px solid black;
+    /* border: 1px solid red; */
+}
+
+.firstDiv_first_row_icons a {
+    color: black;
+    text-decoration: none;
+}
+
+.firstDiv_first_row_icons a:hover {
+    color: white;
+}
+
+
+
+
+.secondDiv {
+    height: 10vmin;
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 2.4vmin;
+
+    /* border: 1px solid red; */
+}
+
+
+
+
+
+
+@media only screen and (max-width: 1250px) {
+
+
+    .firstDiv {
+        min-height: 40vmin;
+        width: 85%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+
+
+    }
+
+
+
+    .firstDiv_first_row_headline {
+       padding: 7px;
+        width: 90%;
+        font-size: 2.2vmin;
+
+    }
+
+    .firstDiv_first_row_icons {
+        min-height: 8vmin;
+        width: 60%;
+        color: black;
+
+
+    }
+
+    .firstDiv_first_row {
+        height: 37vmin;
+        width: 25%;
+        padding-right: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+
+        font-size: 2vmin;
+
+    }
+
+    .secondDiv {
+        height: 10vmin;
+        width: 85%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        font-size: 2.1vmin;
+
+   
+    }
+
+
+
+}
+
+
+
+@media only screen and (max-width: 992px) {
+
+    .firstDiv {
+        min-height: 40vmin;
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        
+
+
+
+    }
+
+
+
+    .firstDiv_first_row_headline {
+             width: 90%;
+            font-size: 2.2vmin;
+
+    }
+
+    .firstDiv_first_row_icons {
+        min-height: 8vmin;
+        width: 60%;
+       
+
+
+    }
+
+    .firstDiv_first_row {
+        height: 37vmin;
+        width: 25%;
+        padding-right: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+
+        font-size: 2vmin;
+
+        /* border: 1px solid red; */
+
+    }
+
+    .secondDiv {
+        height: 10vmin;
+        width: 85%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        font-size: 1.9vmin;
+
+
+    }
+
+
+
+}
+
+
+
+@media only screen and (max-width: 768px) {
+
+ 
+
+    .main {
+        min-height: 180vmin;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        cursor: pointer;
+
+
+ 
+
+    }
+
+    .firstDiv {
+        min-height: 155vmin;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+
+
+
+
+    }
+
+
+
+
+    .firstDiv_first_row {
+        min-height: 50vmin;
+        width: 85%;
+        padding-right: 15px;
+        display: flex;
+        justify-content: space-around;
+
+
+        font-size: 2.6vmin;
+
+        
+
+    }
+
+
+
+
+    .firstDiv_first_row_headline {
+        
+        width: 80%;
+
+        font-size: 3vmin;
+
+    }
+
+
+    .firstDiv_first_row_icons_hw {
+        min-height: 10vmin;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+
+
+
+    }
+
+    .firstDiv_first_row_icons {
+        min-height: 8vmin;
+        width: 60%;
+
+    }
+
+
+
+
+    .secondDiv {
+        min-height: 10vmin;
+        width: 95%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        font-size: 2.5vmin;
+
+
+    }
+
+
+
+}
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+  
+    .main {
+        min-height: 190vmin;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+
+        cursor: pointer;
+        /* font-family: 'Righteous', cursive; */
+    }
+
+    .firstDiv {
+        min-height: 155vmin;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+
+
+
+    }
+
+
+
+
+    .firstDiv_first_row {
+        min-height: 50vmin;
+        width: 85%;
+        padding-right: 15px;
+        display: flex;
+        justify-content: space-around;
+
+
+        font-size: 3vmin;
+
+
+        /* border: 1px solid red; */
+
+    }
+
+
+
+
+    .firstDiv_first_row_headline {
+
+        width: 80%;
+
+        font-size: 3.25vmin;
+      
+
+    }
+
+
+    .firstDiv_first_row_icons_hw {
+        min-height: 10vmin;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+
+
+
+    }
+
+    .firstDiv_first_row_icons {
+        min-height: 8vmin;
+        width: 60%;
+  
+
+    }
+
+
+
+
+    .secondDiv {
+        min-height: 20vmin;
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        font-size: 3vmin;
+
+
+    }
+
+
+
+}

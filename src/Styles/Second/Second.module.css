@@ -1,0 +1,573 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+.main{
+    
+    min-height: 130vmin;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+    font-family: 'Righteous', cursive;
+
+    /* border: 1px solid red; */
+
+}
+
+
+
+.firstText{
+    height: 7.5vmin;
+    width: 75%;
+    display: flex;
+    align-items: center;
+    font-size: 2.3vmin;
+
+
+
+
+    /* border: 1px solid blueviolet; */
+
+}
+
+
+
+.firstImageDiv{
+
+    height: 55vmin;
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+
+ 
+
+}
+
+
+
+
+
+.imageText{
+    height: 55vmin;
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+   justify-content: space-between;
+   
+}
+
+.img{
+    width: 100%;
+    height: 45vmin;
+    border-radius: 6px;
+    
+}
+
+
+
+
+.img:hover{
+    transition: 600ms;
+    transform: scale(.95);
+}
+
+
+.firstImageDiv .imageText:nth-child(even) {
+    transform: rotate(-5deg);
+}
+
+
+
+
+
+.emptyDiv{
+    height: 5vmin;
+    width: 100%;
+    /* border: 1px solid red; */
+
+}
+
+@media only screen and (min-width: 1601px) and (max-width: 2562px) {
+
+    
+
+.firstText{
+    height: 7.5vmin;
+    width: 75%;
+    display: flex;
+    align-items: center;
+    font-size: 2.5vmin;
+
+
+
+/* 
+    border: 1px solid blueviolet; */
+}
+
+
+
+.imageText{
+    height: 55vmin;
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+   justify-content: space-between;
+   font-size: 2.2vmin;
+   
+   
+}
+
+.img{
+    width: 100%;
+    height: 45vmin;
+  
+   
+}
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+@media only screen and (max-width: 1250px) {
+
+    .firstText{
+        height: 7.5vmin;
+        width: 75%;
+        display: flex;
+        align-items: center;
+        font-size: 2.3vmin;
+
+    }
+    
+
+
+
+
+    
+.imageText{
+    height: 55vmin;
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+   justify-content: space-between;
+   font-size: 1.9vmin;
+   
+}
+
+
+
+   
+  }
+
+
+
+
+  
+@media only screen and (max-width: 992px) {
+
+    .firstText{
+        height: 7.5vmin;
+        width: 80%;
+        display: flex;
+        align-items: center;
+        font-size: 2.2vmin;
+
+    }
+
+
+    
+
+.firstImageDiv{
+
+    height: 55vmin;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+
+ 
+
+}
+    
+
+
+
+
+    
+.imageText{
+    height: 55vmin;
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+   justify-content: space-between;
+   font-size: 1.6vmin;
+   
+}
+
+
+
+   
+  }
+
+
+
+
+
+
+   
+@media only screen and (max-width: 768px) {
+
+
+    .firstImageDiv .imageText:nth-child(even) {
+            transform: rotate(0deg);
+        }
+
+    
+.main{
+    
+    min-height: 520vmin;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+    font-family: 'Righteous', cursive;
+
+
+
+}
+
+    .firstText{
+        height: 7.5vmin;
+        width: 65%;
+        display: flex;
+        align-items: center;
+        font-size: 2.3vmin;
+
+    }
+
+
+     
+
+    
+
+.firstImageDiv{
+
+    height: 250vh;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 50px;
+
+ 
+
+}
+
+
+
+.img {
+    width: 100%;
+    height: 50vmin;
+    border-radius: 6px;
+    margin-bottom: 20px;
+
+}
+    
+
+
+
+
+    
+.imageText{
+    height: 60vmin;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-direction: column;
+   justify-content: space-between;
+   font-size: 2.1vmin;
+   
+}
+
+
+
+   
+  }
+
+
+     
+@media only screen and (max-width: 600px) {
+
+    
+    .main{
+        
+        min-height: 580vmin;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        cursor: pointer;
+        font-family: 'Righteous', cursive;
+    
+     
+    
+    }
+    
+        .firstText{
+            height: 7.5vmin;
+            width: 75%;
+            display: flex;
+            align-items: center;
+            font-size: 2.6vmin;
+    
+        }
+    
+    
+        
+    
+    .firstImageDiv{
+    
+        height: 280vmin;
+        width: 75%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-bottom: 100px;
+
+     
+    
+     
+    
+    }
+        
+    
+    
+    
+    
+        
+    .imageText{
+        height: 65vmin;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-direction: column;
+       justify-content: space-between;
+       font-size: 2.3vmin;
+      
+       
+    }
+
+
+        .img {
+            width: 100%;
+            height: 55vmin;
+            border-radius: 6px;
+            margin-bottom: 20px;
+          
+    
+        }
+    
+    
+    
+       
+      }
+
+
+
+
+
+
+
+                  @media only screen and (max-width: 500px) {
+        
+        
+                      .main {
+        
+                          min-height: 590vmin;
+                          width: 100%;
+                          display: flex;
+                          flex-direction: column;
+                          align-items: center;
+                          justify-content: space-around;
+                          cursor: pointer;
+                          font-family: 'Righteous', cursive;
+        
+        
+        
+                      }
+        
+                      .firstText {
+                          height: 7.5vmin;
+                          width: 75%;
+                          display: flex;
+                          align-items: center;
+                          font-size: 3.4vmin;
+        
+                      }
+        
+        
+        
+        
+                      .firstImageDiv {
+        
+                          height: 280vmin;
+                          width: 75%;
+                          display: flex;
+                          flex-direction: column;
+                          justify-content: space-between;
+
+                        
+
+                         
+        
+        
+        
+        
+        
+                      }
+        
+        
+        
+        
+        
+        
+                      .imageText {
+                          height: 65vmin;
+                          width: 100%;
+                          display: flex;
+                          flex-direction: column;
+                          flex-direction: column;
+                          justify-content: space-between;
+                          font-size: 2.7vmin;
+                         
+        
+        
+                      }
+        
+        
+                      .img {
+                          width: 100%;
+                          height:55vmin;
+                          border-radius: 6px;
+                          margin-bottom: 20px;
+                          margin-bottom: 10px;
+        
+                      }
+        
+        
+        
+        
+                  }
+
+
+
+
+
+
+
+                                  @media only screen and (max-width: 450px) {
+                
+                
+                                      .main {
+                
+                                          min-height: 635vmin;
+                                          width: 100%;
+                                          display: flex;
+                                          flex-direction: column;
+                                          align-items: center;
+                                          justify-content: space-around;
+                                          cursor: pointer;
+                                          font-family: 'Righteous', cursive;
+                
+                
+                
+                                      }
+                
+                                      .firstText {
+                                          height: 7.5vmin;
+                                          width: 75%;
+                                          display: flex;
+                                          align-items: center;
+                                          font-size: 3.3vmin;
+                
+                                      }
+                
+                
+                
+                
+                                      .firstImageDiv {
+                
+                                          height: 310vmin;
+                                          width: 75%;
+                                          display: flex;
+                                          flex-direction: column;
+                                          justify-content: space-between;
+                
+                                          margin-bottom: 100px;
+                
+                
+                
+                
+                
+                                      }
+                
+                
+                
+                
+                
+                
+                                      .imageText {
+                                          height: 75vmin;
+                                          width: 100%;
+                                          display: flex;
+                                          flex-direction: column;
+                                          flex-direction: column;
+                                          justify-content: space-between;
+                                          font-size: 2.95vmin;
+                
+                
+                                      }
+                
+                
+                                      .img {
+                                          width: 100%;
+                                          height: 65vmin;
+                                          border-radius: 6px;
+                                          margin-bottom: 20px;
+                                          margin-bottom: 10px;
+                
+                                      }
+                
+                
+                
+                
+                                  }
+    
+    
+
+
+
+
+
+
+
+

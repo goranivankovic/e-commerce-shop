@@ -1,0 +1,428 @@
+
+
+
+
+
+
+.main {
+
+
+    min-height: 210vmin;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Righteous', cursive;
+    cursor: pointer;
+
+
+
+}
+
+.emptyDiv {
+    height: 8vmin;
+    width: 100%;
+    /* border: 1px solid red; */
+}
+
+.slideTextDiv {
+    height: 7vmin;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 1.8vmin;
+
+}
+
+
+.secondDiv {
+
+    height: 62vmin;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Righteous', cursive;
+
+
+
+}
+
+
+
+
+
+
+.secondDivHeadline {
+
+    height: 7vmin;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    align-self: flex-start;
+    font-family: 'Righteous', cursive;
+    font-size: 2.3vmin;
+
+
+
+
+}
+
+
+
+
+.secondDivImage {
+
+    height: 55vmin;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.imageText {
+    height: 55vmin;
+    width: 24%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 1.9vmin;
+
+
+}
+
+.img {
+    width: 100%;
+    height: 45vmin;
+    border-radius: 7px;
+}
+
+.img:hover {
+    transition: 750ms;
+    transform: scale(0.96);
+}
+
+
+
+/* Media querys */
+
+
+@media only screen and (min-width: 1601px) and (max-width: 2562px) {
+
+
+    .slideTextDiv {
+        height: 7vmin;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        font-size: 2.1vmin;
+        /* border: 1px solid blue; */
+    }
+
+
+
+    .secondDivHeadline {
+
+        height: 7vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        align-self: flex-start;
+        font-family: 'Righteous', cursive;
+        font-size: 2.3vmin;
+        /* border: 1px solid blue; */
+
+    }
+
+
+
+
+
+
+    .imageText {
+        height: 55vh;
+        width: 24%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        font-size: 1.7vmin;
+
+
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:768px) {
+
+
+    .main {
+
+
+        height: 750vmin;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        font-family: 'Righteous', cursive;
+        cursor: pointer;
+
+
+
+    }
+
+    .slideTextDiv {
+        display: none;
+    }
+
+
+    .secondDiv {
+
+        height: 240vmin;
+        width: 65%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        font-family: 'Righteous', cursive;
+
+
+
+
+
+
+    }
+
+
+
+    .secondDivImage {
+
+        height: 230vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        justify-content: space-between;
+
+    }
+
+
+
+
+
+
+    .imageText {
+        height: 55vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        font-size: 2vmin;
+
+
+    }
+
+    .img {
+        width: 100%;
+        height: 45vh;
+    }
+
+
+}
+
+
+
+
+
+@media only screen and (max-width:600px) {
+
+
+    .main {
+
+
+        min-height: 870vmin;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        font-family: 'Righteous', cursive;
+        cursor: pointer;
+
+
+
+    }
+
+
+    .secondDivHeadline {
+
+        height: 7vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        align-self: flex-start;
+        font-family: 'Righteous', cursive;
+        font-size: 2.8vmin;
+        /* border: 1px solid blue; */
+
+    }
+
+
+
+
+    .secondDiv {
+
+        height: 280vmin;
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        font-family: 'Righteous', cursive;
+
+
+    }
+
+
+
+    .secondDivImage {
+
+        height: 270vmin;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        justify-content: space-between;
+
+    }
+
+    .imageText {
+        height: 65vmin;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        font-size: 2.3vmin;
+
+
+    }
+
+    .img {
+        width: 100%;
+        height: 54vmin;
+    }
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:500px) {
+
+
+    .main {
+
+
+        min-height: 975vmin;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        font-family: 'Righteous', cursive;
+        cursor: pointer;
+
+
+
+    }
+
+
+    .secondDivHeadline {
+
+        height: 7vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        align-self: flex-start;
+        font-family: 'Righteous', cursive;
+        font-size: 3.3vmin;
+        /* border: 1px solid blue; */
+
+    }
+
+
+
+
+
+
+    .secondDiv {
+
+        height: 310vmin;
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        font-family: 'Righteous', cursive;
+
+
+    }
+
+
+
+    .secondDivImage {
+
+        height: 300vmin;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        justify-content: space-between;
+
+    }
+
+    .imageText {
+        height: 75vmin;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        font-size: 2.85vmin;
+
+
+    }
+
+    .img {
+        width: 100%;
+        height: 64vmin;
+    }
+
+
+
+
+}
