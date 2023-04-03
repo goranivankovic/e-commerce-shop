@@ -103,17 +103,17 @@ function Kid() {
  
          <div className={kidStyles.imageText}>
          <Link to={'/kid/jacket'}>   <img src={womenJacket} alt=""  className={kidStyles.img} /></Link>
-            <div>{ik1}</div>
-            <div><span style={{textDecorationLine:"line-through",paddingRight:"15px",color:"red"}}>{Math.round(Math.floor(kp1+((kp1/100)*20) ))}.00  {valuta}  </span>   <span >{kp1}.00 {valuta}</span>  </div>
+              <div>{ik1}</div>
+            <div><span style={{textDecorationLine:"line-through",paddingRight:"15px",color:"red"}}>{Math.round(Math.floor(kp1+((kp1/100)*20) ))}.00  {valuta}  </span>   <span >{kp1}.00 {valuta}</span>  </div> 
 
          </div>
 
        
          <div className={kidStyles.imageText}>
          <Link to={'/kid/jacket2'}>      <img src={womenCoat} className={kidStyles.img} alt="" /></Link>
-            <div>{ik2}</div>
-            <div><span style={{textDecorationLine:"line-through",paddingRight:"15px",color:"red"}}>{Math.round(Math.floor(kp2+((kp2/100)*20) ))}.00  {valuta}  </span>   <span >{kp2}.00 {valuta}</span>  </div>
-
+                 <div>{ik2}</div>
+            <div><span style={{textDecorationLine:"line-through",paddingRight:"15px",color:"red"}}>{Math.round(Math.floor(kp2+((kp2/100)*20) ))}.00  {valuta}  </span>   <span >{kp2}.00 {valuta}</span>  </div> 
+ 
          </div>
 
 
