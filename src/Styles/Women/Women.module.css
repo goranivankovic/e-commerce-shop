@@ -1,3 +1,6 @@
+
+
+
 .main{
  
     width: 100%;
@@ -36,7 +39,7 @@
 
 .secondDiv{
     
-    width: 80%;
+    width: 82%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -109,10 +112,27 @@
 }
 
 
+@media (max-width:1400px) {
+    .secondDiv {
+
+        width: 87%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        font-family: 'Righteous', cursive;
+        margin-bottom: 1em;
+
+        /* border: 1px solid red; */
+
+    }
+}
+
+
 @media (max-width:1200px) {
 .secondDiv {
 
-        width: 85%;
+        width: 92%;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -143,7 +163,7 @@
 .imageText .img {
     width: 100%;
     border-radius: .5em;
-min-height: auto;
+    min-height: auto;
 }
 
 
