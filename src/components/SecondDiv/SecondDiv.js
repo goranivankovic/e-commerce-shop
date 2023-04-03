@@ -47,7 +47,7 @@ function SecondDiv() {
 
   const valuta = useSelector((state) => state.counter.valuta)
   return (
-    <div className={secondDivStyles.main}>
+     <div className={secondDivStyles.main}>
 
     
 
