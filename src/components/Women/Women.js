@@ -274,8 +274,8 @@ function Women() {
         
 
         </div>
-     
-      <Footer />
+       <Footer />
+  
     </div>
   )
 }
