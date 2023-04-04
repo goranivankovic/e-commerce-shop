@@ -7,112 +7,74 @@
 
 .main{
  
-
-    min-height: 100vmin;
+    min-height: 100svh;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
-    font-family: 'Righteous', cursive;
+    justify-content: space-around;  
+     font-family: 'Righteous', cursive;
 
+    background-image: url('../../Img/black.png');
+     background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
  
 
 }
 
-.emptyDiv{
-    height: 8vmin;
-    width: 100%;
-    /* border: 1px solid red; */
-}
 
 
 
 
 .slideTextDiv{
-    height: 7vmin;
+  padding-top: 2.5em;
     width: 100%;
     display: flex;
     align-items: center;
     cursor: pointer;
     font-size: 1.1rem;
     /* border: 1px solid blue; */
+
 }
 
 
-.ImageDiv{
-    height: 70vmin;
-    width: 65%;
-    display: flex;
-    align-items: flex-end;
-    
-    
-    cursor: pointer;
-
-    background-image: url('../../Img/black.png');
-    background-repeat: no-repeat;
-   background-position: center;
-    background-size: cover;
-    
-     /* border: 1px solid blue; */
-
-   
-}
-
-
-.ImageDivText{
-    margin-left: 100px;
-    margin-bottom: 60px;
-    height: 40vmin;
-    width: 35%;
+.secondDiv{
+    width:65%;
+    padding: 2em;
     display: flex;
     flex-direction: column;
-
-    /* border: 1px solid red; */
-
-}
+     cursor: pointer;
 
 
-.ImageDivText div:nth-child(1){
-    width: 100%;
-    height: 10vmin;
-    font-size: 2.8vmin;
-    display: flex;
-    align-items: flex-end;
-  
-
-
-}
-
-.ImageDivText div:nth-child(2){
-    width: 100%;
-    height: 10vh;
-    font-size: 2.8vmin;
-    display: flex;
- 
-    align-items: center;
     /* border: 1px solid blue; */
 
-}
-
-.ImageDivTextButtons{
-    width: 100%;
-    height: 20vmin;
-    display: flex;
-    flex-direction: column;
    
-    justify-content: space-around;
-
-
 }
 
-.ImageDivTextButtons button{
+.secondDiv div{
+    padding: .8em;
+}
+
+.secondDiv div:nth-child(1){
+   font-size: 1.3rem;
+}
+
+.secondDiv div:nth-child(2) {
+    font-size: 1.3rem;
+}
+
+
+
+
+.secondDiv button{
  
-   height: 6vh;
-   width: 60%;
+padding: .6em;
+   width: 200px;
    background-color: transparent;
-   font-size: 2vmin;
+   font-size: 1.1rem;
    border-radius: 6px;
+   margin-bottom: 1em;
 
    
     
@@ -120,10 +82,9 @@
 
 
 
-.ImageDivTextButtons button:hover{
+.secondDiv button:hover{
     transition: 600ms;
-    transform: scale(.95);
-    border: 2px solid white;
+    border:.2em solid white;
     background-color: black;
     color: white;
 }
@@ -133,765 +94,293 @@
 
 
 
-.emptyDiv2{
-    height: 10vh;
-    width: 100%;
-    /* border: 1px solid red; */
-
-}
-
-@media only screen and (min-width: 1601px) and (max-width: 2562px) {
 
 
 
+
+@media(max-width:992px){
+    .main {
     
-
-.slideTextDiv{
-    height: 7vmin;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    cursor: pointer;
-    font-size: 2vmin;
-    /* border: 1px solid blue; */
-}
-
-
-
-
-
-.ImageDivText{
-    margin-left: 100px;
-    margin-bottom: 60px;
-    height: 40vmin;
-    width: 35%;
-    display: flex;
-    flex-direction: column;
-
-    /* border: 1px solid red; */
-
-}
-
-
-.ImageDivText div:nth-child(1){
-    width: 100%;
-    height: 10vmin;
-    font-size: 2.6vmin;
-    display: flex;
-    align-items: flex-end;
-    /* border: 1px solid blue; */
-
-}
-
-.ImageDivText div:nth-child(2){
-    width: 100%;
-    height: 10vh;
-    font-size: 2.6vmin;
-    display: flex;
- 
-    align-items: center;
-    /* border: 1px solid blue; */
-
-}
-
-.ImageDivTextButtons{
-    width: 100%;
-    height: 20vmin;
-    display: flex;
-    flex-direction: column;
-   
-    justify-content: space-around;
-    /* border: 1px solid blue; */
-
-}
-
-.ImageDivTextButtons button{
- 
-   height: 6vh;
-   width: 60%;
-   background-color: transparent;
-    font-size: 2.3vmin;
+            min-height: 95svh;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+            font-family: 'Righteous', cursive;
     
+            background-image: url('../../Img/black.png');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+    
+    
+        }
 }
 
 
 
 
 
+@media(max-width:768px) {
+
+    .main {
+    
+            min-height:90svh;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+            font-family: 'Righteous', cursive;
+    
+            background-image: url('../../Img/black.png');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+    
+    
+        }
 
 
-
-
-	
-}
-
-
-
-
-
-
-
-
-@media only screen and (max-width: 1250px) {
-
-    .slideTextDiv{
-        height: 7vmin;
+.slideTextDiv {
+        padding-top: 2.5em;
         width: 100%;
         display: flex;
         align-items: center;
         cursor: pointer;
+        font-size: 1rem;
 
-        /* border: 1px solid blue; */
+
     }
 
 
-    
-.ImageDiv{
-    height: 70vmin;
-    width: 70%;
-    display: flex;
-    align-items: flex-end;
-    
-    
-    cursor: pointer;
-
-    background-image: url('../../Img/black.png');
-    background-repeat: no-repeat;
-   background-position: center;
-    background-size: cover;
-    
-
-
-   
-}
-
-
-.ImageDivText{
-    margin-left: 100px;
-    margin-bottom: 60px;
-    height: 30vmin;
-    width: 35%;
-    display: flex;
-    flex-direction: column;
-
-
-
-}
-
-
-.ImageDivText div:nth-child(1){
-    width: 100%;
-    height: 7vmin;
-    font-size: 2.8vmin;
-    display: flex;
-    align-items: center;
-
-
-}
-
-.ImageDivText div:nth-child(2){
-    width: 100%;
-    height: 7vmin;
-    font-size: 2.8vmin;
-    display: flex;
- 
-    align-items: center;
-
-
-}
-
-.ImageDivTextButtons{
-    width: 100%;
-    height: 15vmin;
-    display: flex;
-    flex-direction: column;
-   
-    justify-content: space-around;
-
-
-}
-
-.ImageDivTextButtons button{
- 
-    height: 5.5vmin;
-   width: 60%;
-   background-color: transparent;
-font-size: 2.4vmin;
-    
-}
-
- 
-
-
-
-}
-
-
-
-
-@media only screen and (max-width: 992px) {
-
-    
-    .ImageDiv{
-        height: 70vmin;
+    .secondDiv {
         width: 75%;
+        padding: 1em;
         display: flex;
-        align-items: flex-end;
-        
-        
+        flex-direction: column;
         cursor: pointer;
-    
-    background-image: url('../../Img/black.png');
-        background-repeat: no-repeat;
-       background-position: center;
-        background-size: cover;
-        
-    
-    
-       
-    }
-    
-    
-    .ImageDivText{
-        margin-left: 100px;
-        margin-bottom: 50px;
-        height: 35vmin;
-        width: 35%;
-        display: flex;
-        flex-direction: column;
-    
-    
-    
-    }
-    
-    
-    .ImageDivText div:nth-child(1){
-        width: 100%;
-        height: 7vh;
-        font-size: 2.6vmin;
-        display: flex;
-        align-items: center;
-    
-    
-    }
-    
-    .ImageDivText div:nth-child(2){
-        width: 100%;
-        height: 7vh;
-        font-size: 2.6vmin;
-        display: flex;
+        margin-bottom: 7em;
+
+
      
-        align-items: center;
-    
-    
+
+
     }
-    
-    .ImageDivTextButtons{
-        width: 100%;
-        height: 15vmin;
-        display: flex;
-        flex-direction: column;
-       
-        justify-content: space-around;
-    
-    
+
+    .secondDiv div {
+        padding: .8em;
     }
-    
-    .ImageDivTextButtons button{
-     
-        height: 5.5vmin;
-       width: 70%;
-       background-color: transparent;
-    font-size: 2.35vmin;
-        
+
+    .secondDiv div:nth-child(1) {
+        font-size: 1.2rem;
     }
-    
-     
-    
-    
-    
+
+    .secondDiv div:nth-child(2) {
+        font-size: 1.2rem;
     }
 
 
 
 
+    .secondDiv button {
+
+        padding: .6em;
+        width: 180px;
+        background-color: transparent;
+        font-size: 1rem;
+        border-radius: 6px;
+        margin-bottom: 1em;
 
 
-    
-@media only screen and (max-width: 768px) {
+
+    }
 
 
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:600px) {
 
     .main {
-    
-    
-            min-height: 120vmin;
-            width: 100%;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: space-around;
-            font-family: 'Righteous', cursive;
-    
-    
-    
-        }
 
-                   .slideTextDiv {
-                       height: 7vmin;
-                       width: 100%;
-                       display: flex;
-                       align-items: center;
-                       cursor: pointer;
-                       font-size: 2vmin;
-        
-                       /* border: 1px solid blue; */
-                   }
+        min-height: 90svh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        font-family: 'Righteous', cursive;
+
+        background-image: url('../../Img/black.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
 
 
+    }
 
 
-    
-    .ImageDiv{
-        height: 75vmin;
+    .slideTextDiv {
+        padding-top: 2.5em;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        font-size: 1rem;
+
+    }
+
+
+    .secondDiv {
+        width: 85%;
+        padding: 1em;
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+        margin-bottom: 4em;
+
+
+
+
+
+    }
+
+    .secondDiv div {
+        padding: .6em;
+    }
+
+    .secondDiv div:nth-child(1) {
+        font-size: 1rem;
+    }
+
+    .secondDiv div:nth-child(2) {
+        font-size: 1rem;
+    }
+
+
+
+
+    .secondDiv button {
+
+        padding: .6em;
+        width: 180px;
+        background-color: transparent;
+        font-size: .9rem;
+        border-radius: 6px;
+        margin-bottom: 1em;
+
+
+
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:450px) {
+
+    .main {
+
+        min-height: 90svh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        font-family: 'Righteous', cursive;
+
+        background-image: url('../../Img/black.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+
+
+    }
+
+
+    .slideTextDiv {
+        padding-top: 2.5em;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        font-size: .9rem;
+       
+
+    }
+
+
+    .secondDiv {
         width: 90%;
+        padding: 1em;
         display: flex;
-        align-items: flex-end;
-        
-        
+        flex-direction: column;
         cursor: pointer;
-    
-    background-image: url('../../Img/black.png');
-        background-repeat: no-repeat;
-       background-position: center;
-        background-size: cover;
-        
-    
-    
-       
+        margin-bottom: 4em;
+
+
+
+
+
     }
-    
-    
-    .ImageDivText{
-        margin-left: 60px;
-        margin-bottom: 60px;
-        height: 27vmin;
-        width: 45%;
-        display: flex;
-        flex-direction: column;
-    
-    
-    
+
+    .secondDiv div {
+        padding: .6em;
     }
-    
-    
-    .ImageDivText div:nth-child(1){
-        width: 100%;
-        height: 6vmin;
-       font-size: 2.5vmin;
-        display: flex;
-        align-items: center;
-    
-    
+
+    .secondDiv div:nth-child(1) {
+        font-size: .9rem;
     }
-    
-    .ImageDivText div:nth-child(2){
-        width: 100%;
-        height: 6vmin;
-        font-size: 2.5vmin;
-        display: flex;
-     
-        align-items: center;
-    
-    
-    }
-    
-    .ImageDivTextButtons{
-        width: 100%;
-        height: 15vmin;
-        display: flex;
-        flex-direction: column;
-       
-        justify-content: space-around;
-    
-    
-    }
-    
-    .ImageDivTextButtons button{
-     
-        height: 5vmin;
-       width: 50%;
-       background-color: transparent;
-    font-size: 2.1vmin;
-        
-    }
-    
-     
-    
-    
-    
+
+    .secondDiv div:nth-child(2) {
+        font-size: .9rem;
     }
 
 
 
 
-    
-    
-@media only screen and (max-width:600px) {
+    .secondDiv button {
+
+        padding: .6em;
+        width: 180px;
+        background-color: transparent;
+        font-size: .85rem;
+        border-radius: 6px;
+        margin-bottom: 1em;
 
 
 
-    .main {
-    
-    
-            min-height: 135vmin;
-            width: 100%;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: space-around;
-            font-family: 'Righteous', cursive;
-    
-    
-    
-        }
-    
-        .slideTextDiv {
-            height: 7vmin;
-            width: 100%;
-            display: flex;
-            align-items: center;
-            cursor: pointer;
-            font-size: 2.4vmin;
-    
-            /* border: 1px solid blue; */
-        }
-
-
-
-
-
-    
-    .ImageDiv{
-        height: 95vmin;
-        width:97%;
-        display: flex;
-        align-items: flex-end;
-        
-        
-        cursor: pointer;
-    
-    background-image: url('../../Img/black.png');
-        background-repeat: no-repeat;
-       background-position: center;
-        background-size: cover;
-        
-    
-    
-       
-    }
-    
-    
-    .ImageDivText{
-        margin-left: 50px;
-        margin-bottom: 50px;
-        height: 35vmin;
-        width: 55%;
-        display: flex;
-        flex-direction: column;
-    
-    
-    
-    }
-    
-    
-    .ImageDivText div:nth-child(1){
-        width: 100%;
-        height: 6vmin;
-        font-size: 2.9vmin;
-        display: flex;
-        align-items: center;
-    
-    
-    }
-    
-    .ImageDivText div:nth-child(2){
-        width: 100%;
-        height: 6vmin;
-        font-size: 2.9vmin;
-        display: flex;
-     
-        align-items: center;
-    
-    
-    }
-    
-    .ImageDivTextButtons{
-        width: 100%;
-        height: 20vmin;
-        display: flex;
-        flex-direction: column;
-       
-        justify-content: space-around;
-    
-    
-    }
-    
-    .ImageDivTextButtons button{
-     
-        height: 7vmin;
-       width: 55%;
-       background-color: transparent;
-        font-size: 2.9vmin;
-        
-    }
-    
-     
-    
-    
-    
     }
 
 
 
-
-
- 
-
-
-
-
-                @media only screen and (max-width:500px) {
-        
-        
-        
-                    .main {
-        
-        
-                        min-height: 155vmin;
-                        width: 100%;
-                        display: flex;
-                        flex-direction: column;
-                        align-items: center;
-                        justify-content: space-around;
-                        font-family: 'Righteous', cursive;
-        
-        
-        
-                    }
-        
-                    .slideTextDiv {
-                        height: 7vmin;
-                        width: 100%;
-                        display: flex;
-                        align-items: center;
-                        cursor: pointer;
-                        font-size: 2.7vmin;
-        
-                        /* border: 1px solid blue; */
-                    }
-        
-        
-        
-        
-        
-        
-                    .ImageDiv {
-                        height: 100vmin;
-                        width: 97%;
-                        display: flex;
-                        align-items: flex-end;
-        
-        
-                        cursor: pointer;
-        
-                       
-                        background-repeat: no-repeat;
-                        background-position: center;
-                        background-size: cover;
-        
-        
-        
-        
-                    }
-        
-        
-                    .ImageDivText {
-                        margin-left: 50px;
-                        margin-bottom: 50px;
-                        height: 40vmin;
-                        width: 60%;
-                        display: flex;
-                        flex-direction: column;
-        
-        
-        
-                    }
-        
-        
-                    .ImageDivText div:nth-child(1) {
-                        width: 100%;
-                        height: 6vmin;
-                        font-size: 3.2vmin;
-                        display: flex;
-                        align-items: center;
-        
-        
-                    }
-        
-                    .ImageDivText div:nth-child(2) {
-                        width: 100%;
-                        height: 6vmin;
-                        font-size:3.2vmin;
-                        display: flex;
-        
-                        align-items: center;
-        
-        
-                    }
-        
-                    .ImageDivTextButtons {
-                        width: 100%;
-                        height: 20vmin;
-                        display: flex;
-                        flex-direction: column;
-        
-                        justify-content: space-around;
-        
-        
-                    }
-        
-                    .ImageDivTextButtons button {
-        
-                        height: 7vmin;
-                        width: 55%;
-                        background-color: transparent;
-                        font-size: 3vmin;
-        
-                    }
-        
-        
-        
-        
-        
-                }
-
-
-
-
-
-
-                                @media only screen and (max-width:450px) {
-                
-                
-                
-                                    .main {
-                
-                
-                                        min-height: 175vmin;
-                                        width: 100%;
-                                        display: flex;
-                                        flex-direction: column;
-                                        align-items: center;
-                                        justify-content: space-around;
-                                        font-family: 'Righteous', cursive;
-                
-                
-                
-                                    }
-                
-                                    .slideTextDiv {
-                                        height: 7vmin;
-                                        width: 100%;
-                                        display: flex;
-                                        align-items: center;
-                                        cursor: pointer;
-                                        font-size: 2.8vmin;
-                
-                                        /* border: 1px solid blue; */
-                                    }
-                
-                
-                
-                
-                
-                
-                                    .ImageDiv {
-                                        height: 110vmin;
-                                        width: 97%;
-                                        display: flex;
-                                        align-items: flex-end;
-                
-                
-                                        cursor: pointer;
-                
-                                    background-image: url('../../Img/black.png');
-                                        background-repeat: no-repeat;
-                                        background-position: center;
-                                        background-size: cover;
-                
-                
-                
-                
-                                    }
-                
-                
-                                    .ImageDivText {
-                                        margin-left: 50px;
-                                        margin-bottom: 50px;
-                                        height: 40vmin;
-                                        width: 65%;
-                                        display: flex;
-                                        flex-direction: column;
-                
-                
-                
-                                    }
-                
-                
-                                    .ImageDivText div:nth-child(1) {
-                                        width: 100%;
-                                        height: 6vmin;
-                                        font-size: 3.6vmin;
-                                        display: flex;
-                                        align-items: center;
-                
-                
-                                    }
-                
-                                    .ImageDivText div:nth-child(2) {
-                                        width: 100%;
-                                        height: 6vmin;
-                                        font-size: 3.6vmin;
-                                        display: flex;
-                
-                                        align-items: center;
-                
-                
-                                    }
-                
-                                    .ImageDivTextButtons {
-                                        width: 100%;
-                                        height: 20vmin;
-                                        display: flex;
-                                        flex-direction: column;
-                
-                                        justify-content: space-around;
-                
-                
-                                    }
-                
-                                    .ImageDivTextButtons button {
-                
-                                        height: 7vmin;
-                                        width: 55%;
-                                        background-color: transparent;
-                                        font-size: 3vmin;
-                
-                                    }
-                
-                
-                
-                
-                
-                                }
+}

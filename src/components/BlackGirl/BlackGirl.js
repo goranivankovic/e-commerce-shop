@@ -15,7 +15,7 @@ function BlackGirl() {
   return (
     <div className={blackStyles.main}>
 
-        <div className={blackStyles.emptyDiv}></div>
+     
        
        <marquee className={blackStyles.slideTextDiv} direction="right">
       {slideText}
@@ -23,26 +23,25 @@ function BlackGirl() {
 
 
 
-         <div className={blackStyles.ImageDiv}>
+        <div className={blackStyles.secondDiv}>
 
-           <div className={blackStyles.ImageDivText}>
+                   <div>{blackText1}</div>
+                   <div>{blackText2}</div>
+                    
+                             <Link to={"/women"}><button>{blackText3}</button></Link>
+                             <Link to={"/shop"}><button>{blackText4}</button></Link>   
+                 
 
-           <div>{blackText1}</div>
-            <div>{blackText2}</div>
-          <div className={blackStyles.ImageDivTextButtons}>
-            <Link to={"/women"}><button>{blackText3}</button></Link>
-         <Link to={"/shop"}><button>{blackText4}</button></Link>   
+
              </div>
 
-           </div>
-         
-          
 
-         </div>
+
+ 
 
 
 
-         <div className={blackStyles.emptyDiv2}></div>
+  
     </div>
   )
 }
