@@ -1,7 +1,6 @@
 
 
 
-
 .main {
 
     width: 100%;
@@ -100,6 +99,7 @@
 
 
 .imageText .img {
+    max-height: 25rem;
     width: 100%;
     border-radius: .5em;
 
