@@ -203,25 +203,7 @@ function Four() {
 
 </Marquee>
 
-            <div className={fourStyles.threedDiv}>
-
-                <div className={fourStyles.threedDivFirst}>
-                   <div>{fourText4}</div>
-
-                   {fourText5}
-                  
-                </div>
-
-
-                <div className={fourStyles.threedDivSecond}>
-                {fourText6}
-                 
-                     </div>
-
-            </div>
-
-
-
+          
 
 
 

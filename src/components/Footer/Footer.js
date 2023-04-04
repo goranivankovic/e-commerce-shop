@@ -40,62 +40,8 @@ function Footer() {
     <div className={footerStyle.main}>
         <div className={footerStyle.empty}></div>
 
+          <div className={footerStyle.firstDiv}></div>
 
-
-        <div className={footerStyle.firstDiv}>
-
-      <div className={footerStyle.firstDiv_first_row}>
-          <div className={footerStyle.firstDiv_first_row_headline }>{footerRow1val1}</div>
-
-          <div>{footerRow1val2}</div>
-          <div>{footerRow1val3}</div>
-          <div>{footerRow1val4}</div>
-          <div>{footerRow1val5}</div>
-          <div>{footerRow1val6}</div>
-
-      </div>
-
-      <div className={footerStyle.firstDiv_first_row}>
-
-      <div className={footerStyle.firstDiv_first_row_headline }>{footerRow2val1}</div>
-
-         <div>{footerRow2val2}</div>
-         <div>{footerRow2val3}</div>
-        <div>{footerRow2val4}</div>
-        <div>{footerRow2val5}</div>
-        <div>{footerRow2val6}</div>
-          
-          </div>
-
-          <div className={footerStyle.firstDiv_first_row}>
-          <div className={footerStyle.firstDiv_first_row_headline }>{footerRow3val1}</div>
-
-          <div>{footerRow3val2}</div>
-          <div>{footerRow3val3}</div>
-        <div>{footerRow3val4}</div>
-          <div>{footerRow3val5}</div>
-           <div>{footerRow3val6}</div>
-          
-          </div>
-
-          <div className={footerStyle.firstDiv_first_row_icons_hw}>
-
-             
-              <a  href="https://www.facebook.com/" target="_blank"><AiOutlineFacebook className={footerStyle.firstDiv_first_row_icons} /></a>  
-              <a  href="https://youtube.com"  target="_blank"><AiOutlineYoutube  className={footerStyle.firstDiv_first_row_icons}/></a>  
-               <a href="https://twitter.com"  target="_blank"><FaTwitter className={footerStyle.firstDiv_first_row_icons} /></a> 
-               <a  href="https://instagram.com"  target="_blank"><AiOutlineInstagram className={footerStyle.firstDiv_first_row_icons} /></a> 
-               
-
-          
-              
-             
-          
-          </div>
-    
-
-
-        </div>
 
 
         <div className={footerStyle.secondDiv}>

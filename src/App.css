@@ -4,8 +4,7 @@
   box-sizing: border-box;
 
 }
-.spans{
-  height: 50px;
-  width: 50px;
-}
 
+:root{
+  --black:black;
+}

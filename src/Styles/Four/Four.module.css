@@ -9,7 +9,7 @@
 .main{
  
 
-    min-height: 125vmin;
+  
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -25,15 +25,15 @@
 }
 
 .firstDiv{
-    height:20vmin;
+    padding: 1.5em;
     width: 60%;
     display: flex;
     flex-direction: column;  
     justify-content: space-around;
     cursor: pointer;
-    font-size: 2.3vmin;
+    font-size: 1.1rem;
 
-
+/* border: 2px solid red; */
 
 }
 
@@ -50,720 +50,247 @@
 
 .firstImageDiv{
    
-
-    height: 55vmin;
-    width: 200%;
+   min-height: 50svh;
+    width: 100%;
     display: flex;
+       
 
     justify-content: space-between;
 
 
-/* 
-    border: 1px solid red; */
+
+    /* border: 1px solid red; */
+    margin-bottom: 2em;
 
 }
 
 
 
-.img{
-    width: 100%;
-    height: 45vmin;
-}
 
 .imageText{
-    height: 55vmin;
-    width: 10%;
-    padding: 0 3px;
+    min-height: 40svh;
+    padding: .6em;
+    width: 20%;
     display: flex;
     flex-direction: column;
    justify-content: space-between;
+
+   font-size: .9rem;
   
    
 }
 
 
-
-.threedDiv{
-    height: 35vmin;
-    width: 65%;
-    display: flex;
-   
-    justify-content: space-around;
-    cursor: pointer;
-  
-
-}
-
-.threedDivFirst{
-    height: 100%;
-    width: 48%;
-    font-size: 2.2vmin;
-    display: flex;
-    flex-direction: column;
-
-
- 
-
-}
-.threedDivFirst div:nth-child(1){
-font-size: 2.7vmin;
-
-}
-.threedDivSecond{
-    height: 100%;
-    width: 48%;
-    display: flex;
-font-size: 2.2vmin;
-
-
-    /* border: 1px solid red; */
-}
-
-@media only screen and (min-width: 1601px) and (max-width: 2562px) {
-
-
-    .firstDiv{
-        height:20vmin;
-        width: 60%;
-        display: flex;
-        flex-direction: column;  
-        justify-content: space-around;
-        cursor: pointer;
-        font-size: 2.2vmin;
-    /* 
-        border: 1px solid blue; */
-    }
-
-
-    .imageText{
-        height: 55vmin;
-        width: 10%;
-        padding: 0 3px;
-        display: flex;
-        flex-direction: column;
-       justify-content: space-between;
-       font-size: 1.9vmin;
-      
-       
-    }
-
-
-    .threedDivFirst{
-        height: 70%;
-        width: 48%;
-        font-size: 1.3rem;
-        display: flex;
-        flex-direction: column;
-    
-    
-        /* border: 1px solid blue; */
-    }
-    .threedDivFirst div:nth-child(1){
-        font-size: 2.2vmin;
-    
-    }
-    .threedDivSecond{
-        height: 70%;
-        width: 48%;
-        display: flex;
-    font-size: 2vmin;
-    
-    
-        /* border: 1px solid red; */
-    }
-    
-
-
-
-    
-
-
-
+.imageText img{
+    max-height: 40svh;
 }
 
 
-
-
-
-
-@media only screen and (max-width: 1250px) {
-
-
-    .firstDiv{
-        height:20vmin;
-        width: 60%;
-        display: flex;
-        flex-direction: column;  
-        justify-content: space-around;
-        cursor: pointer;
-        font-size: 2.2vmin;
-    
-     
-    }
-
-    .imageText{
-        height: 55vmin;
-        width: 10%;
-        padding: 0 3px;
-        display: flex;
-        flex-direction: column;
-       justify-content: space-between;
-       font-size: 1.8vmin;
-    
-      
-       
-    }
-    
-
-
-
-    
-.threedDiv{
-    height: 35vmin;
-    width: 60%;
-    display: flex;
-   
-    justify-content: space-around;
-    cursor: pointer;
-    /* border: 1px solid blue; */
-}
-
-.threedDivFirst{
-    height: 100%;
-    width: 48%;
-    font-size: 2vmin;
-    display: flex;
-    flex-direction: column;
-
-
-    /* border: 1px solid blue; */
-}
-.threedDivFirst div:nth-child(1){
-    font-size: 2.5vmin;
-
-}
-.threedDivSecond{
-    height: 100%;
-    width: 48%;
-    display: flex;
-    font-size: 2vmin;
-
-
-    /* border: 1px solid red; */
-}
-
-
-
-
-
-  
-  }
-
-
-
-
-
-  
-@media only screen and (max-width: 992px) {
-
-
-    .firstDiv{
-        height:20vmin;
-        width: 65%;
-        display: flex;
-        flex-direction: column;  
-        justify-content: space-around;
-        cursor: pointer;
-        font-size: 2.2vmin;
-
-    
-  
-    }
-
-    .imageText{
-        height: 55vmin;
-        width: 10%;
-        padding: 0 3px;
-        display: flex;
-        flex-direction: column;
-       justify-content: space-between;
-       font-size: 1.75vmin;
-      
-       
-    }
-    
-
-
-
-    
-.threedDiv{
-    height: 35vmin;
-    width: 65%;
-    display: flex;
-   
-    justify-content: space-around;
-    cursor: pointer;
-
-}
-
-.threedDivFirst{
-    height: 100%;
-    width: 48%;
-    font-size: 2.2vmin;
-    display: flex;
-    flex-direction: column;
-
-
-    /* border: 1px solid blue; */
-}
-.threedDivFirst div:nth-child(1){
-    font-size: 2.5vmin;
-
-}
-.threedDivSecond{
-    height: 100%;
-    width: 48%;
-    display: flex;
-    font-size: 1.85vmin;
-
-
-    /* border: 1px solid red; */
-}
-
-
-
-
-
-  
-  }
-
-
-
-
-  
-  
-@media only screen and (max-width: 768px) {
-
-
-    
-.main{
- 
-
-    min-height: 125vmin;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    font-family: 'Righteous', cursive;
-    overflow: hidden;
-  
-   
-
- 
-
-}
-
-
-    .firstDiv{
-        height:20vmin;
+@media (max-width:992px) {
+.firstDiv {
+        padding: 1.5em;
         width: 70%;
         display: flex;
-        flex-direction: column;  
+        flex-direction: column;
         justify-content: space-around;
         cursor: pointer;
-        font-size: 2vmin;
-    
+        font-size: 1rem;
+
   
+
     }
 
-    
-.firstImageDiv{
-   
+    .firstDiv div:nth-child(2) {
+        align-self: center;
+    }
 
-    height: 55vmin;
-    width: 280%;
-    display: flex;
-
-    justify-content: space-between;
+    .firstDiv div:nth-child(3) {
+        align-self: flex-end;
+    }
 
 
 
-   
-
-}
 
 
+    .firstImageDiv {
 
-    .imageText{
-        height: 55vmin;
+        min-height: 50svh;
+        width: 200%;
+        display: flex;
+
+
+        justify-content: space-between;
+        margin-bottom: 2em;
+
+    }
+
+
+
+
+    .imageText {
+        min-height: 40svh;
+        padding: .6em;
         width: 25%;
-        padding: 0 3px;
         display: flex;
         flex-direction: column;
-       justify-content: space-between;
-       font-size: 1.7vmin;
-      
-       
+        justify-content: space-between;
+
+        font-size: .9rem;
+
+
+    }
+
+
+    .imageText img {
+        max-height: 40svh;
     }
     
-
-
-
-    
-.threedDiv{
-    height: 35vmin;
-    width: 70%;
-    display: flex;
-    flex-direction: column;
-   
-    justify-content: space-between;
-    cursor: pointer;
-
-}
-
-.threedDivFirst{
-    height:10vmin;
-    width: 100%;
-    font-size: 2vmin;
-    display: flex;
-    flex-direction: column;
-
-
-    /* border: 1px solid blue; */
-}
-.threedDivFirst div:nth-child(1){
-    font-size: 2.6vmin;
-
-}
-.threedDivSecond{
-    height: 25vmin;
-    width: 100%;
-    display: flex;
-    font-size: 2vmin;
-    align-items: flex-end;
-
-
-    /* border: 1px solid red; */
 }
 
 
 
 
 
-  
-  }
 
 
 
 
 
 
-   
-@media only screen and (max-width: 600px) {
-
-
-    
-    .main{
-     
-    
-        min-height: 130vmin;
-        width: 100%;
+@media (max-width:768px) {
+    .firstDiv {
+        padding: 1.5em;
+        width: 80%;
         display: flex;
         flex-direction: column;
-        align-items: center;
-        justify-content: space-between;
-        font-family: 'Righteous', cursive;
-        overflow: hidden;
-      
-       
-    
-     
-    
-    }
-    
-    
-        .firstDiv{
-            height:20vmin;
-            width: 75%;
-            display: flex;
-            flex-direction: column;  
-            justify-content: space-around;
-            cursor: pointer;
-            font-size: 2.5vmin;
-        
-      
-        }
-    
-        .imageText{
-            height: 55vmin;
-            width: 25%;
-            padding: 0 3px;
-            display: flex;
-            flex-direction: column;
-           justify-content: space-between;
-        font-size: 2vmin;
-          
-           
-        }
-        
-    
-    
-    
-        
-    .threedDiv{
-        height: 45vmin;
-        width: 75%;
-        display: flex;
-        flex-direction: column;
-       
-        justify-content: space-between;
+        justify-content: space-around;
         cursor: pointer;
-    
+        font-size: .9rem;
+
+
+
     }
-    
-    .threedDivFirst{
-        height:10vmin;
-        width: 100%;
-        font-size: 2.5vmin;
+    .firstDiv div{
+        padding: .8em;
+    }
+
+    .firstDiv div:nth-child(2) {
+        align-self: center;
+    }
+
+    .firstDiv div:nth-child(3) {
+        align-self: flex-end;
+    }
+
+
+
+
+
+    .firstImageDiv {
+
+        min-height: 50svh;
+        width: 200%;
+        display: flex;
+
+
+        justify-content: space-between;
+        margin-bottom: 1em;
+
+    }
+
+
+
+
+    .imageText {
+        min-height: 40svh;
+        padding: .4em;
+        width: 25%;
         display: flex;
         flex-direction: column;
-    
-    
-        /* border: 1px solid blue; */
+        justify-content: space-between;
+
+        font-size: .85rem;
+
+
     }
-    .threedDivFirst div:nth-child(1){
-        font-size: 2.7vmin;
-    
+
+
+    .imageText img {
+        max-height: 40svh;
     }
-    .threedDivSecond{
-        height: 30vmin;
-        width: 100%;
+
+}
+
+
+
+
+
+
+
+@media (max-width:600px) {
+    .firstDiv {
+        padding: 1.5em;
+        width: 90%;
         display: flex;
-        font-size: 2.3vmin;
-      align-items: flex-end;
-    
-    
-     
+        flex-direction: column;
+        justify-content: space-around;
+        cursor: pointer;
+        font-size: .85rem;
+
+
+
     }
-    
-    
-    
-    
-    
-      
-      }
-      
-      
-      
-      
-  
-  
-  
+
+    .firstDiv div {
+        padding: .8em;
+    }
+ .firstDiv div:nth-child(1) {
+     align-self: center;
+ }
+
+    .firstDiv div:nth-child(2) {
+        align-self: center;
+    }
+
+    .firstDiv div:nth-child(3) {
+        align-self: center;
+    }
 
 
 
 
 
+    .firstImageDiv {
+
+        min-height: 50svh;
+        width: 200%;
+        display: flex;
 
 
-                @media only screen and (max-width: 500px) {
-        
-        
-        
-                    .main {
-        
-        
-                        min-height: 150vmin;
-                        width: 100%;
-                        display: flex;
-                        flex-direction: column;
-                        align-items: center;
-                        justify-content: space-between;
-                        font-family: 'Righteous', cursive;
-                        overflow: hidden;
-        
-        
-        
-        
-        
-                    }
-        
-        
-                    .firstDiv {
-                        height: 20vmin;
-                        width: 75%;
-                        display: flex;
-                        flex-direction: column;
-                        justify-content: space-around;
-                        cursor: pointer;
-                        font-size: 2.8vmin;
-        
-        
-                    }
-        
-                    .imageText {
-                        height: 55vmin;
-                        width: 25%;
-                       
-                        display: flex;
-                        flex-direction: column;
-                        justify-content: space-between;
-                        font-size: 2.4vmin;
-        
-        
-                    }
+        justify-content: space-between;
+        margin-bottom: 1em;
 
-
-
-                                        
-                                     
-        
-        
-        
-        
-                    .threedDiv {
-                        height: 45vmin;
-                        width: 75%;
-                        display: flex;
-                        flex-direction: column;
-        
-                        justify-content: space-between;
-                        cursor: pointer;
-        
-                    }
-        
-                    .threedDivFirst {
-                        height: 10vmin;
-                        width: 100%;
-                        font-size: 2.4vmin;
-                        display: flex;
-                        flex-direction: column;
-        
-        
-                        /* border: 1px solid blue; */
-                    }
-        
-                    .threedDivFirst div:nth-child(1) {
-                        font-size: 3.1vmin;
-        
-                    }
-        
-                    .threedDivSecond {
-                        height: 30vmin;
-                        width: 100%;
-                        display: flex;
-                        font-size: 2.5vmin;
-                        align-items: flex-end;
-        
-        
-        
-                    }
-        
-        
-        
-        
-        
-        
-                }
+    }
 
 
 
 
+    .imageText {
+        min-height: 40svh;
+        padding: .2em;
+        width: 25%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        font-size: .8rem;
 
 
-                                @media only screen and (max-width: 450px) {
-                
-                
-                
-                                    .main {
-                
-                
-                                        min-height: 150vmin;
-                                        width: 100%;
-                                        display: flex;
-                                        flex-direction: column;
-                                        align-items: center;
-                                        justify-content: space-between;
-                                        font-family: 'Righteous', cursive;
-                                        overflow: hidden;
-                
-                
-                
-                
-                
-                                    }
-                
-                
-                                    .firstDiv {
-                                        height: 20vmin;
-                                        width: 75%;
-                                        display: flex;
-                                        flex-direction: column;
-                                        justify-content: space-around;
-                                        cursor: pointer;
-                                        font-size: 3vmin;
-                
-                
-                                    }
-                
-                                    .imageText {
-                                        height: 55vmin;
-                                        width: 25%;
-                                        padding: 0 3px;
-                                        display: flex;
-                                        flex-direction: column;
-                                        justify-content: space-between;
-                                        font-size: 2.7vmin;
-                
-                
-                                    }
-                
-                
-                
-                
-                
-                                    .threedDiv {
-                                        height: 45vmin;
-                                        width: 75%;
-                                        display: flex;
-                                        flex-direction: column;
-                
-                                        justify-content: space-between;
-                                        cursor: pointer;
-                
-                                    }
-                
-                                    .threedDivFirst {
-                                        height: 10vmin;
-                                        width: 100%;
-                                        font-size: 2.65vmin;
-                                        display: flex;
-                                        flex-direction: column;
-                
-                
-                                        /* border: 1px solid blue; */
-                                    }
-                
-                                    .threedDivFirst div:nth-child(1) {
-                                        font-size: 3.2vmin;
-                
-                                    }
-                
-                                    .threedDivSecond {
-                                        height: 30vmin;
-                                        width: 100%;
-                                        display: flex;
-                                        font-size: 2.7vmin;
-                                        align-items: flex-end;
-                
-                
-                
-                                    }
-                
-                
-                
-                
-                
-                
-                                }
+    }
+
+
+    .imageText img {
+        max-height: 40svh;
+    }
+
+}
