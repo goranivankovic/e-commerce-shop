@@ -9,9 +9,9 @@
 position: fixed;
 top: 0%;
 left: 0%;
-height: 6.5vmin;
 width: 100%;
-background-color: rgb(255, 255, 255);
+padding: .6em;
+background-color: white;
 z-index: 10;
 color: black;
 display: flex;
@@ -23,14 +23,13 @@ font-family: 'Righteous', cursive;
 }
 
 .logo{
-    height: 6.5vmin;
     width: 20%;
     display: flex;
     align-items: center;
     justify-content: space-around;
     text-decoration: none;
 
-    font-size: 2.5vmin;
+    font-size: 1.2rem;
     /* border: 1px solid red; */
 }
 
@@ -42,11 +41,10 @@ font-family: 'Righteous', cursive;
 
 .navItems{
 width:55%;
-height:6.5vmin;
 display: flex;
 align-items: center;
 justify-content: space-around;
-font-size: 2.25vmin;
+font-size: 1rem;
 list-style: none;
 
 /* border: 1px solid red; */
@@ -71,9 +69,10 @@ list-style: none;
     position: fixed;
 top: 6.4vmin;
 left: 0%;
-height: 55vmin;
+
 width: 100%;
 background-color: white;
+
 z-index: 8;
 color: black;
 display: flex;
@@ -86,14 +85,15 @@ font-family: 'Righteous', cursive;
 }
 
 .divOnMouseOverFirst{
-    height: 50vmin;
-    width: 65%;
+  
+    width: 70%;
 color: black;
 display: flex;
 
 justify-content: space-between;
 cursor: pointer;
 font-family: 'Righteous', cursive;
+padding: 3em;
 
 
 
@@ -101,7 +101,8 @@ font-family: 'Righteous', cursive;
 }
 
 .divOnMouseOverFirst div{
-    height: 35vmin;
+
+
     width: 25%;
     display: flex;
     flex-direction: column;
@@ -111,20 +112,22 @@ font-family: 'Righteous', cursive;
     /* border: 1px solid green; */
 }
 .divOnMouseOverFirst div li a{
+
     color: black;
     text-decoration: none;
-    font-size: 2vmin;
+    font-size: .9rem;
 }
 
 .divOnMouseOverFirst div li:nth-child(1){
+  
     display: flex;
     justify-content: space-between;
     justify-self: flex-end;
     font-weight: bolder;
 }
 
-.divOnMouseOverFirst div:nth-child(2){
-    min-height: 45vmin;
+.divOnMouseOverFirst div{
+    padding: 1em;
     width: 25%;
     display: flex;
     flex-direction: column;
@@ -135,7 +138,7 @@ font-family: 'Righteous', cursive;
 
 
 .divOnMouseOverFirst div:nth-child(3){
-    min-height: 30vmin;
+    padding: 1em;
     width: 25%;
     display: flex;
     flex-direction: column;
@@ -144,7 +147,7 @@ font-family: 'Righteous', cursive;
     /* border: 1px solid green; */
 }
 .divOnMouseOverFirst div:nth-child(4){
-   min-height: 30vmin;
+padding: 1em;
     width: 25%;
     display: flex;
     flex-direction: column;
@@ -165,7 +168,7 @@ font-family: 'Righteous', cursive;
 }
 
 .divOnMouseOverFirstInput{
-    min-height: 35vmin;
+  
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -183,7 +186,7 @@ font-family: 'Righteous', cursive;
 
 .divOnMouseOverFirstInput input[type=text]{
     width: 100%;
-    height: 4.5vmin;
+   padding: .4em;
 }
 
 .main768{
@@ -205,120 +208,22 @@ font-family: 'Righteous', cursive;
 
 
 
+@media(max-width:1200px){
+.divOnMouseOverFirst {
 
-
-
-
-
-/* Media querys */
-
-
-
-@media only screen and (max-width:1250px) {
-
-
-    .navItems{
-        width:65%;
-        height:6.5vmin;
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        font-size: 2vmin;
-        list-style: none;
-        
-       
-        
-        }
-
-        .divOnMouseOverFirst{
-            height: 50vmin;
-            width: 75%;
+        width: 80%;
         color: black;
         display: flex;
-        font-size: 1vmin;
-        
+
         justify-content: space-between;
         cursor: pointer;
         font-family: 'Righteous', cursive;
-        
-        
-     
-        
-        }
-
-
-
-                .divOnMouseOverFirst div li a {
-                    color: black;
-                    text-decoration: none;
-                    font-size: 1.8vmin;
-                }
+        padding: 3em;
 
 
 
 
- 
-
-}
-
-
-
-
-
-@media only screen and (max-width:992px) {
-
-    .logo{
-        height: 6.5vmin;
-        width: 20%;
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        text-decoration: none;
-    
-        font-size: 2.2vmin;
-      
     }
-    
-
-
-    .navItems{
-        width:70%;
-        height:6.5vmin;
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        font-size: 1.9vmin;
-        list-style: none;
-        
-       
-        
-        }
-
-        .divOnMouseOverFirst{
-            height: 50vmin;
-            width: 85%;
-        color: black;
-        display: flex;
-     
-        
-        justify-content: space-between;
-        cursor: pointer;
-        font-family: 'Righteous', cursive;
-        
-        
-     
-        
-        }
-
-
-                .divOnMouseOverFirst div li a {
-                    color: black;
-                    text-decoration: none;
-                    font-size: 1.7vmin;
-                }
-
- 
-
 }
 
 
@@ -327,33 +232,218 @@ font-family: 'Righteous', cursive;
 
 
 
-@media only screen and (max-width:768px) {
 
 
+
+
+
+@media(max-width:992px) {
+    .divOnMouseOverFirst {
+
+        width: 90%;
+        color: black;
+        display: flex;
+
+        justify-content: space-between;
+        cursor: pointer;
+        font-family: 'Righteous', cursive;
+        padding: 3em;
+
+
+
+
+    }
+}
+
+
+
+
+
+@media(max-width:768px) {
     .main {
+    
+            display: none;
+    
+        }
+    
+        .navItems {
+            display: none;
+        }
+    
+        .divOnMouseOverMain {
+            display: none;
+        }
 
-        display: none;
+ .main768 {
+     padding: .5em;
+     position: fixed;
+     top: 0%;
+     left: 0%;
+     min-height: 6.5vh;
+     font-size: .85rem;
+     width: 100%;
+     background-color: white;
+     z-index: 12;
+     color: black;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     cursor: pointer;
+     font-family: 'Righteous', cursive;
+     /* border: 1px solid red; */
 
-    }
-
-    .navItems {
-        display: none;
-    }
-
-    .divOnMouseOverMain {
-        display: none;
-    }
+ }
 
 
+ .navItems768 {
+
+     width: 35%;
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     list-style: none;
+     padding-right: 3px;
+
+     /* border: 1px solid red; */
+ }
 
 
+ .navItems768 svg {
+     font-size: 1.1rem;
+ }
+
+
+ .logo768 {
+
+
+     width: 25%;
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     text-decoration: none;
+
+     font-size: 1.1rem;
+     /* border: 1px solid red; */
+
+ }
+
+
+
+
+ .logo768 div a {
+     color: black;
+     text-decoration: none;
+ }
+
+
+
+ .divOnMouseOverMain768 {
+     z-index: 11;
+     overflow-y: scroll;
+
+     position: fixed;
+     top: 6.4vh;
+     left: 0%;
+     min-height: 94svh;
+     width: 100%;
+     background-color: white;
+     z-index: 11;
+     color: black;
+     display: flex;
+
+     justify-content: space-around;
+
+     cursor: pointer;
+     font-family: 'Righteous', cursive;
+
+     overflow: scroll;
+
+
+ }
+
+ .divOnMouseOverFirst768 {
+
+
+
+
+     width:85%;
+     color: black;
+     display: flex;
+
+     flex-direction: column;
+     justify-content: space-around;
+     list-style: none;
+     cursor: pointer;
+     font-family: 'Righteous', cursive;
+
+
+
+
+ }
+
+ .divOnMouseOverFirst768 li {
+     font-size: 1rem;
+     color: black;
+
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+
+
+     /* border: 1px solid red;*/
+ }
+
+
+
+
+ .divOnMouseOverFirst768 div li a {
+
+     text-decoration: none;
+     color: black;
+     border: 0px;
+     width: 75%;
+     margin-left: 20px;
+     border-bottom-color: transparent;
+     font-weight: 100;
+
+ }
+
+
+
+ .cards {
+     font-size: 1.2rem;
+ }
+
+ .serchBar768 input[type=text] {
+     padding: .5em;
+     width: 80%;
+ }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:600px) {
 
     .main768 {
-
+        padding: .5em;
         position: fixed;
         top: 0%;
         left: 0%;
         min-height: 6.5vh;
+        font-size: .85rem;
         width: 100%;
         background-color: white;
         z-index: 12;
@@ -369,12 +459,11 @@ font-family: 'Righteous', cursive;
 
 
     .navItems768 {
-        width: 35%;
-        height: 6.5vh;
+
+        width: 55%;
         display: flex;
         align-items: center;
         justify-content: space-around;
-        font-size: 2.2vmin;
         list-style: none;
         padding-right: 3px;
 
@@ -382,21 +471,21 @@ font-family: 'Righteous', cursive;
     }
 
 
-         .navItems768 svg {
-             font-size: 3.3vmin;
-         }
+    .navItems768 svg {
+        font-size: .85rem;
+    }
 
 
     .logo768 {
 
-        height: 6.5vh;
+
         width: 35%;
         display: flex;
         align-items: center;
         justify-content: space-around;
         text-decoration: none;
 
-        font-size: 2.5vmin;
+        font-size: .85rem;
         /* border: 1px solid red; */
 
     }
@@ -413,11 +502,12 @@ font-family: 'Righteous', cursive;
 
     .divOnMouseOverMain768 {
         z-index: 11;
+        overflow-y: scroll;
 
         position: fixed;
         top: 6.4vh;
         left: 0%;
-        height: 94vh;
+        min-height: 94svh;
         width: 100%;
         background-color: white;
         z-index: 11;
@@ -430,29 +520,32 @@ font-family: 'Righteous', cursive;
         font-family: 'Righteous', cursive;
 
         overflow: scroll;
+       
 
     }
 
     .divOnMouseOverFirst768 {
 
-        min-height: 105vh;
 
-        width: 85%;
+
+
+        width: 90%;
         color: black;
         display: flex;
 
         flex-direction: column;
+        justify-content: space-around;
         list-style: none;
         cursor: pointer;
         font-family: 'Righteous', cursive;
 
-        /* border: 1px solid red; */
+
 
 
     }
 
     .divOnMouseOverFirst768 li {
-        min-height: 5.5vmax;
+font-size: .85rem;
         color: black;
 
         display: flex;
@@ -467,307 +560,29 @@ font-family: 'Righteous', cursive;
 
 
     .divOnMouseOverFirst768 div li a {
+      
         text-decoration: none;
         color: black;
         border: 0px;
-        width: 60%;
+        width: 75%;
         margin-left: 20px;
         border-bottom-color: transparent;
         font-weight: 100;
 
-        /* border: 1px solid red; */
     }
 
 
 
     .cards {
-        font-size: 2.7vmin;
+        font-size: .9rem;
     }
 
     .serchBar768 input[type=text] {
-        height: 4vh;
+        padding: .5em;
         width: 80%;
     }
 
-
 }
 
 
 
-
-@media only screen and (max-width:600px) {
-
-
-    .navItems768 {
-        width: 50%;
-        height: 6.5vh;
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        font-size: 2.55vmin;
-        list-style: none;
-
-
-
-    }
-
-
-         .navItems768 svg {
-             font-size: 3.8vmin;
-         }
-
-
-
-
-
-        .logo768 {
-    
-            height: 6.5vh;
-            width: 35%;
-            display: flex;
-            align-items: center;
-            justify-content: space-around;
-            text-decoration: none;
-    
-            font-size: 3.1vmin;
-            /* border: 1px solid red; */
-    
-        }
-    
-    
-    
-    
-        .logo768 div a {
-            color: black;
-            text-decoration: none;
-        }
-    
-    
-    
-        .divOnMouseOverMain768 {
-            z-index: 11;
-    
-            position: fixed;
-            top: 6.4vh;
-            left: 0%;
-            height: 94vh;
-            width: 100%;
-            background-color: white;
-            z-index: 11;
-            color: black;
-            display: flex;
-    
-            justify-content: space-around;
-    
-            cursor: pointer;
-            font-family: 'Righteous', cursive;
-    
-            overflow: scroll;
-    
-        }
-    
-        .divOnMouseOverFirst768 {
-    
-            min-height: 105vh;
-    
-            width: 85%;
-            color: black;
-            display: flex;
-    
-            flex-direction: column;
-            list-style: none;
-            cursor: pointer;
-            font-family: 'Righteous', cursive;
-            font-size: 2.5vmin;
-    
-            /* border: 1px solid red; */
-    
-    
-        }
-    
-        .divOnMouseOverFirst768 li {
-            min-height: 5.5vmax;
-            color: black;
-    
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-    
-    
-            /* border: 1px solid red;*/
-        }
-    
-    
-    
-    
-        .divOnMouseOverFirst768 div li a {
-            text-decoration: none;
-            color: black;
-            border: 0px;
-            width: 60%;
-            margin-left: 20px;
-            border-bottom-color: transparent;
-            font-weight: 100;
-            font-size: 2.3vmin;
-    
-            /* border: 1px solid red; */
-        }
-    
-    
-    
-        .cards {
-            font-size: 2.7vmin;
-        }
-    
-        .serchBar768 input[type=text] {
-            height: 4vh;
-            width: 80%;
-        }
-
-
-
-
-
-
-}
-
-
-
-
-
-
-
-@media only screen and (max-width:500px) {
-
-
-    .navItems768 {
-        width: 50%;
-        height: 6.5vh;
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        font-size: 2.6vmin;
-        list-style: none;
-
-
-
-    }
-
-    .navItems768 svg{
-        font-size: 4.2vmin;
-    }
-
-
-
-
-
-    .logo768 {
-
-        height: 6.5vh;
-        width: 35%;
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        text-decoration: none;
-
-        font-size: 3.8vmin;
-        /* border: 1px solid red; */
-
-    }
-
-
-
-
-    .logo768 div a {
-        color: black;
-        text-decoration: none;
-    }
-
-
-
-    .divOnMouseOverMain768 {
-        z-index: 11;
-
-        position: fixed;
-        top: 6.4vh;
-        left: 0%;
-        height: 94vh;
-        width: 100%;
-        background-color: white;
-        z-index: 11;
-        color: black;
-        display: flex;
-
-        justify-content: space-around;
-
-        cursor: pointer;
-        font-family: 'Righteous', cursive;
-
-        overflow: scroll;
-
-    }
-
-    .divOnMouseOverFirst768 {
-
-        min-height: 105vh;
-
-        width: 85%;
-        color: black;
-        display: flex;
-
-        flex-direction: column;
-        list-style: none;
-        cursor: pointer;
-        font-family: 'Righteous', cursive;
-        font-size: 3.35vmin;
-
-        /* border: 1px solid red; */
-
-
-    }
-
-    .divOnMouseOverFirst768 li {
-        min-height: 4.5vmax;
-        color: black;
-
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-
-
-        /* border: 1px solid red;*/
-    }
-
-
-
-
-    .divOnMouseOverFirst768 div li a {
-        text-decoration: none;
-        color: black;
-        border: 0px;
-        width: 60%;
-        margin-left: 20px;
-        border-bottom-color: transparent;
-        font-weight: 100;
-        font-size: 3.1vmin;
-
-        /* border: 1px solid red; */
-    }
-
-
-
-    .cards {
-        font-size: 4vmin;
-    }
-
-    .serchBar768 input[type=text] {
-        height: 4vh;
-        width: 80%;
-    }
-
-
-
-
-
-
-}

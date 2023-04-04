@@ -1,7 +1,7 @@
 .main{
  
 
-    min-height: 100vmin;
+    min-height: 100svh;
     width: 100%;
     display: flex;
    align-items: center;
@@ -15,204 +15,236 @@
 }
 
 .emptyDiv{
-    height: 10vmin;
+    padding: 2em;
     width: 100%;
     /* border: 1px solid red; */
+
 }
 
 
 .imageText{
-    min-height:10vmin;
+    padding: 2em;
     width: 85%;
       display: flex;
       align-items: center;
       justify-content: space-between;
       border-bottom: 1px solid black;
-      padding: 5px;
-      font-size: 2.1vmin;
-/* 
-      border: 1px solid blue; */
+      font-size: 1rem;
+          /* border: 1px solid red; */
+
 }
 
 .img{
-    height: 150px;
+    height:auto;
     width: 100px;
 }
 
 .ukupno{
-    min-height:10vmin;
+     padding: 1em;
     width: 85%;
       display: flex;
       flex-direction: column;
-      font-size: 2.2vmin;
+      font-size: 1rem;
     
     justify-content:flex-end;
     /* border: 1px solid red; */
+
+    margin-bottom: 1em;
  
 
 }
 
 
-@media only screen and (min-width: 1601px) and (max-width: 2562px) {
 
 
-  .imageText{
-    min-height:10vh;
-    width: 85%;
+@media (max-width:992px){
+
+  .main {
+  
+  
+      min-height: 100svh;
+      width: 100%;
+      display: flex;
+      align-items: center;
+  
+      flex-direction: column;
+      font-family: 'Righteous', cursive;
+      cursor: pointer;
+  
+  
+  
+    }
+  
+    .emptyDiv {
+      padding: 2em;
+      width: 100%;
+
+    }
+  
+  
+    .imageText {
+      padding: 2em;
+      width: 90%;
       display: flex;
       align-items: center;
       justify-content: space-between;
       border-bottom: 1px solid black;
-      padding: 5px;
-      font-size: 1.25rem;
-/* 
-      border: 1px solid blue; */
+      font-size: 1rem;
+
+  
+    }
+  
+    .img {
+      height: auto;
+      width: 100px;
+    }
+  
+    .ukupno {
+      padding: 1em;
+      width: 90%;
+      display: flex;
+      flex-direction: column;
+      font-size: 1rem;
+  
+      justify-content: flex-end;
+
+  
+  
+    }
+
+
 }
 
-.ukupno{
-  min-height:10vh;
-  width: 85%;
+
+
+
+
+
+@media (max-width:768px) {
+
+  .main {
+
+
+    min-height: 100svh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+    flex-direction: column;
+    font-family: 'Righteous', cursive;
+    cursor: pointer;
+
+
+
+  }
+
+  .emptyDiv {
+    padding: 2em;
+    width: 100%;
+   
+  }
+
+
+  .imageText {
+    padding: 1em;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    font-size: .9rem;
+ 
+
+  }
+
+  .img {
+    height: auto;
+    width: 100px;
+  }
+
+  .ukupno {
+    padding: 1em;
+    width:90%;
     display: flex;
     flex-direction: column;
+    font-size: .9rem;
+
+    justify-content: flex-end;
   
-  justify-content:flex-end;
-  font-size: 1.25rem;
-  /* border: 1px solid red; */
+
+
+  }
 
 
 }
 
 
 
+
+
+
+
+
+
+
+
+
+
+@media (max-width:600px) {
+
+  .main {
+
+
+    min-height: 100svh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+    flex-direction: column;
+    font-family: 'Righteous', cursive;
+    cursor: pointer;
+
+
+
+  }
+
+  .emptyDiv {
+    padding: 2em;
+    width: 100%;
+
+  }
+
+
+  .imageText {
+    padding: .5em;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    font-size: .85rem;
+    margin-bottom: 1em;
+
+
+  }
+
+  .img {
+    height: auto;
+    width: 100px;
+  }
+
+  .ukupno {
+    padding: 1em;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    font-size: .85rem;
+
+    justify-content: flex-end;
+
+
+
+  }
+
+
 }
-
-
-
-
-@media only screen and (max-width:992px) {
-
-    .imageText{
-        min-height:10vh;
-        width: 90%;
-          display: flex;
-          align-items: center;
-          justify-content: space-between;
-          border-bottom: 1px solid black;
-          padding:5px;
-    
-     
-          font-size: 2.1vmin;
-    }
- 
-  }
-
-
-
-  
-@media only screen and (max-width:768px) {
-
-    .imageText{
-        min-height:10vh;
-        width: 90%;
-          display: flex;
-          align-items: center;
-          justify-content: space-between;
-          border-bottom: 1px solid black;
-         
-    
-       
-          font-size: 2.1vmin;
-    }
-
-        .ukupno {
-          min-height: 10vmin;
-          width: 85%;
-          display: flex;
-          flex-direction: column;
-          font-size: 2.3vmin;
-    
-          justify-content: flex-end;
-          /* border: 1px solid red; */
-    
-    
-        }
-
-
- 
-  }
-
-
-
-
-
-    @media only screen and (max-width:600px) {
-  
-      .imageText {
-        min-height: 10vh;
-        width: 90%;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        border-bottom: 1px solid black;
-  
-  
-  
-        font-size: 2.4vmin;
-      }
-
-
-            .ukupno {
-              min-height: 10vmin;
-              width: 85%;
-              display: flex;
-              flex-direction: column;
-              font-size: 2.5vmin;
-      
-              justify-content: flex-end;
-              /* border: 1px solid red; */
-      
-      
-            }
-  
-  
-  
-    }
-
-
-
-
-
-
-        @media only screen and (max-width:500px) {
-    
-          .imageText {
-            min-height: 10vh;
-            width: 90%;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            border-bottom: 1px solid black;
-    
-    
-    
-            font-size: 2.8vmin;
-          }
-    
-    
-          .ukupno {
-            min-height: 10vmin;
-            width: 85%;
-            display: flex;
-            flex-direction: column;
-            font-size: 2.95vmin;
-    
-            justify-content: flex-end;
-            /* border: 1px solid red; */
-    
-    
-          }
-    
-    
-    
-        }
-
