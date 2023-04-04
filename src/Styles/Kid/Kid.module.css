@@ -4,7 +4,6 @@
 
 
 
-
 .main {
 
     width: 100%;
@@ -361,15 +360,18 @@
         flex-direction: column;
         justify-content: space-between;
         font-size: .85rem;
-            padding: 2em;
+        padding: 1em;
+
+
 
     }
 
 
     .imageText .img {
+        max-height: 25rem;
         width: 100%;
         border-radius: .5em;
-        min-height: auto;
+
     }
 
 }
@@ -467,6 +469,7 @@
 
 
     .imageText .img {
+        min-height: 25rem;
         width: 100%;
         border-radius: .5em;
 
