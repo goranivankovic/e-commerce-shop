@@ -67,7 +67,7 @@ list-style: none;
 .divOnMouseOverMain{
 
     position: fixed;
-top: 6.4vmin;
+top: .6em;
 left: 0%;
 
 width: 100%;
@@ -85,7 +85,7 @@ font-family: 'Righteous', cursive;
 }
 
 .divOnMouseOverFirst{
-  
+    min-height: 50svh;
     width: 70%;
 color: black;
 display: flex;
@@ -112,19 +112,13 @@ padding: 3em;
     /* border: 1px solid green; */
 }
 .divOnMouseOverFirst div li a{
-
+ 
     color: black;
     text-decoration: none;
     font-size: .9rem;
 }
 
-.divOnMouseOverFirst div li:nth-child(1){
-  
-    display: flex;
-    justify-content: space-between;
-    justify-self: flex-end;
-    font-weight: bolder;
-}
+
 
 .divOnMouseOverFirst div{
     padding: 1em;
@@ -133,18 +127,41 @@ padding: 3em;
     flex-direction: column;
     list-style: none;
     justify-content: space-between;
-    /* border: 1px solid green; */
+
+}
+
+.divOnMouseOverFirst div li:nth-child(1) {
+   
+   
+
+    display: flex;
+    justify-content: space-between;
+    justify-self: flex-end;
+    font-weight: bolder;
+}
+
+
+.divOnMouseOverFirst div li {
+
+
+  padding: .5em;
+
+    display: flex;
+    justify-content: space-between;
+    justify-self: flex-end;
+    font-weight: bolder;
 }
 
 
 .divOnMouseOverFirst div:nth-child(3){
-    padding: 1em;
+    padding: 2em;
     width: 25%;
     display: flex;
     flex-direction: column;
     list-style: none;
     justify-content: space-between;
-    /* border: 1px solid green; */
+
+
 }
 .divOnMouseOverFirst div:nth-child(4){
 padding: 1em;
@@ -275,21 +292,23 @@ padding: 1em;
         }
 
  .main768 {
-     padding: .5em;
+     
      position: fixed;
      top: 0%;
      left: 0%;
-     min-height: 6.5vh;
+     padding: .6em;
      font-size: .85rem;
      width: 100%;
-     background-color: white;
      z-index: 12;
      color: black;
+     background-color: white;
      display: flex;
      align-items: center;
      justify-content: space-between;
      cursor: pointer;
      font-family: 'Righteous', cursive;
+ 
+
      /* border: 1px solid red; */
 
  }
@@ -338,16 +357,15 @@ padding: 1em;
 
 
  .divOnMouseOverMain768 {
-     z-index: 11;
-     overflow-y: scroll;
 
+     z-index: 11;
      position: fixed;
-     top: 6.4vh;
+  
+     top: 2.6em;
      left: 0%;
-     min-height: 94svh;
+     min-height: 100%;
      width: 100%;
      background-color: white;
-     z-index: 11;
      color: black;
      display: flex;
 
@@ -356,13 +374,14 @@ padding: 1em;
      cursor: pointer;
      font-family: 'Righteous', cursive;
 
-     overflow: scroll;
+
 
 
  }
 
- .divOnMouseOverFirst768 {
 
+
+ .divOnMouseOverFirst768 {
 
 
 
@@ -375,19 +394,43 @@ padding: 1em;
      list-style: none;
      cursor: pointer;
      font-family: 'Righteous', cursive;
+ 
+
 
 
 
 
  }
 
- .divOnMouseOverFirst768 li {
+
+ .divOnMouseOverFirst768 div:nth-child(3){
+ max-height: 45svh;
+ overflow-y: scroll;
+ }
+
+  .divOnMouseOverFirst768 div:nth-child(4) {
+      max-height: 45svh;
+      overflow-y: scroll;
+  }
+
+  .divOnMouseOverFirst768 div:nth-child(5) {
+      max-height: 45svh;
+      overflow-y: scroll;
+  }
+
+ .divOnMouseOverFirst768 li{
+     
+ 
      font-size: 1rem;
      color: black;
 
      display: flex;
      align-items: center;
      justify-content: space-between;
+
+   
+
+
 
 
      /* border: 1px solid red;*/
@@ -396,7 +439,10 @@ padding: 1em;
 
 
 
- .divOnMouseOverFirst768 div li a {
+ .divOnMouseOverFirst768 div li{
+  
+
+
 
      text-decoration: none;
      color: black;
@@ -412,12 +458,18 @@ padding: 1em;
 
  .cards {
      font-size: 1.2rem;
+     margin-bottom: 2em;
  }
 
  .serchBar768 input[type=text] {
-     padding: .5em;
+     padding: .2em;
      width: 80%;
  }
+
+
+
+
+
 }
 
 
@@ -438,22 +490,22 @@ padding: 1em;
 @media(max-width:600px) {
 
     .main768 {
-        padding: .5em;
-        position: fixed;
+
+ 
+       position: fixed;
         top: 0%;
         left: 0%;
-        min-height: 6.5vh;
+        padding: .6em;
         font-size: .85rem;
         width: 100%;
-        background-color: white;
         z-index: 12;
         color: black;
+        background-color: white;
         display: flex;
         align-items: center;
         justify-content: space-between;
         cursor: pointer;
         font-family: 'Righteous', cursive;
-        /* border: 1px solid red; */
 
     }
 
@@ -501,20 +553,22 @@ padding: 1em;
 
 
     .divOnMouseOverMain768 {
-        z-index: 11;
-        overflow-y: scroll;
-
+       z-index: 11;
         position: fixed;
-        top: 6.4vh;
+        color: black;
+    
+        top: 2.6em;
         left: 0%;
-        min-height: 94svh;
+        min-height: 100%;
         width: 100%;
         background-color: white;
-        z-index: 11;
         color: black;
         display: flex;
-
+    
         justify-content: space-around;
+    
+        cursor: pointer;
+        font-family: 'Righteous', cursive;
 
         cursor: pointer;
         font-family: 'Righteous', cursive;
@@ -544,7 +598,7 @@ padding: 1em;
 
     }
 
-    .divOnMouseOverFirst768 li {
+    .divOnMouseOverFirst768 li{
 font-size: .85rem;
         color: black;
 
@@ -578,7 +632,7 @@ font-size: .85rem;
     }
 
     .serchBar768 input[type=text] {
-        padding: .5em;
+        padding: .2em;
         width: 80%;
     }
 
