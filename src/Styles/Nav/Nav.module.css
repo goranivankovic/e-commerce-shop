@@ -94,6 +94,7 @@ justify-content: space-between;
 cursor: pointer;
 font-family: 'Righteous', cursive;
 padding: 3em;
+background-color: white;
 
 
 
@@ -170,11 +171,14 @@ padding: 1em;
     flex-direction: column;
     list-style: none;
     justify-content: space-between;
-    /* border: 1px solid green; */
+   
+ 
 }
 
 .divOnMouseOverFirst input[type=text]{
     width: 25%;
+
+
 
 }
 
@@ -185,24 +189,33 @@ padding: 1em;
 }
 
 .divOnMouseOverFirstInput{
-  
-    width: 50%;
-    display: flex;
+  min-height: auto;
+    width: 70%;
+padding: 2em;
+   display: flex;
     flex-direction: column;
     list-style: none;
-  
-/*    
-    border: 1px solid green; */
+    background-color: white;
+
+ color: black;
+   
+ 
 
 }
 .divOnMouseOverFirstInput div li{
     padding: 5px;
+
+       
+
 }
 
 
 
 .divOnMouseOverFirstInput input[type=text]{
     width: 100%;
+  
+
+
    padding: .4em;
 }
 
