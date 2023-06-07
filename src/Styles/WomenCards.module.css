@@ -37,7 +37,7 @@
 
 .secondDivImage{
    padding: 1em;
-    width: 65%;
+   width: 950px;
     display: flex;
     justify-content: space-between;
 
@@ -106,7 +106,7 @@
 
 .desciption{
     padding: 2em;
-    width: 60%;
+  max-width: 950px;
     align-self: center;
     
     font-size: 1rem;
@@ -134,7 +134,7 @@
 @media (max-width:1200px){
     .secondDivImage {
             padding: 1em;
-            width: 70%;
+            width: 950px;
             display: flex;
             justify-content: space-between;
     
@@ -164,7 +164,7 @@
     
         .secondDivImage {
             padding: 1em;
-            width: 60%;
+            width: 550px;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
@@ -236,7 +236,7 @@
     
         .desciption {
             padding: 2em;
-            width: 60%;
+          max-width: 550px;
             align-self: center;
     
             font-size: 1rem;
@@ -295,7 +295,7 @@
 
     .secondDivImage img {
         width: 100%;
-        max-height: 25rem;
+        max-height: 22rem;
         margin-bottom: 2em;
         border-radius: 5px;
 
@@ -415,7 +415,7 @@
 
     .secondDivImage img {
         width: 100%;
-        max-height: 25rem;
+        max-height: 22rem;
         margin-bottom: 2em;
         border-radius: 5px;
 

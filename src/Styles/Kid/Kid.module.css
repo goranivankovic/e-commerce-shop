@@ -1,8 +1,6 @@
 
 
 
-
-
 .main {
 
     width: 100%;
@@ -99,6 +97,10 @@
 
 }
 
+.img {
+    height: 26rem;
+}
+
 
 .imageText .img {
     max-height: 25rem;
@@ -172,7 +174,7 @@
     .imageText .img {
         width: 100%;
         border-radius: .5em;
-        min-height: auto;
+
     }
 
 
@@ -205,7 +207,7 @@
 
     .secondDiv {
 
-        width: 75%;
+        width: 80%;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -263,6 +265,10 @@
         padding: 1em;
 
 
+    }
+
+    .img {
+        height: 22rem;
     }
 
 
@@ -368,7 +374,7 @@
 
 
     .imageText .img {
-        max-height: 25rem;
+        max-height: 22rem;
         width: 100%;
         border-radius: .5em;
 
@@ -469,7 +475,7 @@
 
 
     .imageText .img {
-        min-height: 25rem;
+        min-height: 22rem;
         width: 100%;
         border-radius: .5em;
 

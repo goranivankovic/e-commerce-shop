@@ -40,7 +40,7 @@
 
 
 .secondDiv{
-    width:60%;
+    width:800px;
     padding: 2em;
     display: flex;
     flex-direction: column;
@@ -57,11 +57,11 @@
 }
 
 .secondDiv div:nth-child(1){
-   font-size: 1.3rem;
+   font-size: 1.4rem;
 }
 
 .secondDiv div:nth-child(2) {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
 }
 
 
@@ -70,9 +70,9 @@
 .secondDiv button{
  
 padding: .6em;
-   width: 180px;
+   width: 200px;
    background-color: transparent;
-   font-size: 1.1rem;
+   font-size: 1.15rem;
    border-radius: 6px;
    margin-bottom: 1em;
 
@@ -116,6 +116,49 @@ padding: .6em;
     
     
         }
+
+
+  .secondDiv {
+      width: 650px;
+      padding: 2em;
+      display: flex;
+      flex-direction: column;
+      cursor: pointer;
+
+
+      /* border: 1px solid blue; */
+
+
+  }
+
+
+
+  .secondDiv div:nth-child(1) {
+      font-size: 1.3rem;
+  }
+
+  .secondDiv div:nth-child(2) {
+      font-size: 1.3rem;
+  }
+
+
+
+
+  .secondDiv button {
+
+      padding: .6em;
+      width: 180px;
+      background-color: transparent;
+      font-size: 1.1rem;
+      border-radius: 6px;
+      margin-bottom: 1em;
+
+
+
+  }
+
+
+
 }
 
 
