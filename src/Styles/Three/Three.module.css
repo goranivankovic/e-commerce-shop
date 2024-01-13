@@ -8,7 +8,7 @@
 .main{
  
 
-   min-height: 90svh;
+   min-height: 90vh;
     width: 100%;
     display: flex;
     align-items: center;
@@ -23,7 +23,7 @@
 
 }
 .firstDiv{
-    min-height: 90svh;
+    min-height: 90vh;
     width: 49%;
     background-color: rgba(135, 40, 255, 1);
     display: flex;
@@ -49,7 +49,7 @@
     margin-left: 100px;
     border-bottom:2px solid #FF0000;
 
-    
+ 
    
 
 
@@ -60,7 +60,7 @@
 
 .secondDiv{
 
-       min-height: 90svh;
+       min-height: 90vh;
         width: 49%;
          display: flex;
         flex-direction: column;
@@ -85,7 +85,7 @@
         margin-left: 100px;
        border-bottom:2px solid rgba(135, 40, 255, 1);
     
-   
+
 
 
 }
@@ -93,7 +93,8 @@
 
 
 .secondDivImg{
-    height: 85vmin;
+
+   
     width: 100%;
     padding: 10px;
     background-image: url('../../Img/tshirt.png');
@@ -102,7 +103,7 @@
     background-size: contain;
   
 
-   
+
   
 }
 
@@ -112,7 +113,7 @@
 .main {
 
 
-        min-height: 90svh;
+        min-height: 90vh;
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -127,7 +128,7 @@
     }
 
     .firstDiv {
-        min-height:50svh;
+        min-height:50vh;
         width: 80%;
         background-color: rgba(135, 40, 255, 1);
         display: flex;
@@ -164,7 +165,7 @@
 
     .secondDiv {
 
-        min-height: 50svh;
+        min-height: 50vh;
             width: 80%;
         display: flex;
         flex-direction: column;
@@ -197,7 +198,7 @@
 
 
     .secondDivImg {
-        height: 85vmin;
+      
         width: 100%;
         padding: 10px;
         background-image: url('../../Img/tshirt.png');
@@ -217,7 +218,7 @@
     .main {
 
 
-      min-height: auto;
+    
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -232,7 +233,7 @@
     }
 
     .firstDiv {
-        min-height: 50svh;
+        min-height: 50vh;
         width: 90%;
         background-color: rgba(135, 40, 255, 1);
         display: flex;
@@ -269,7 +270,7 @@
 
     .secondDiv {
 
-        min-height: 50svh;
+        min-height: 50vh;
         width: 90%;
         display: flex;
         flex-direction: column;
@@ -302,7 +303,7 @@
 
 
     .secondDivImg {
-        height: 85vmin;
+      
         width: 100%;
         padding: 10px;
         background-image: url('../../Img/tshirt.png');
@@ -324,7 +325,7 @@
     .main {
 
 
-        min-height: auto;
+       
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -339,7 +340,7 @@
     }
 
     .firstDiv {
-        min-height: 60svh;
+        min-height: 60vh;
         width: 100%;
         background-color: rgba(135, 40, 255, 1);
         display: flex;
@@ -376,7 +377,7 @@
 
     .secondDiv {
 
-        min-height: 60svh;
+        min-height: 60vh;
         width: 100%;
         display: flex;
         flex-direction: column;

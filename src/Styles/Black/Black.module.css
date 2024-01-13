@@ -7,7 +7,7 @@
 
 .main{
  
-    min-height: 100svh;
+    min-height: 100vh;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -101,7 +101,7 @@ padding: .6em;
 @media(max-width:992px){
     .main {
     
-            min-height: 95svh;
+            min-height: 95vh;
             width: 100%;
             display: flex;
             flex-direction: column;
@@ -169,7 +169,7 @@ padding: .6em;
 
     .main {
     
-            min-height:90svh;
+            min-height:90vh;
             width: 100%;
             display: flex;
             flex-direction: column;
@@ -264,7 +264,7 @@ padding: .6em;
 
     .main {
 
-        min-height: 90svh;
+        min-height: 90vh;
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -353,7 +353,7 @@ padding: .6em;
 
     .main {
 
-        min-height: 90svh;
+        min-height: 90vh;
         width: 100%;
         display: flex;
         flex-direction: column;
